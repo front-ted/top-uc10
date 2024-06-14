@@ -1,0 +1,2091 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:mso="urn:schemas-microsoft-com:office:office"
+  xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Adaptação de lentes de contato</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/splide.min.css" rel="stylesheet">
+  <link href="css/tecnicos_senac.css" rel="stylesheet">
+  <link href="css/cores.css" rel="stylesheet">
+  <!--Extras - novas classes para facilitar-->
+  <link rel="stylesheet" href="css/extras.css">
+  <link href="css/sncload.css" rel="stylesheet">
+  <link href="css/magnific-popup.css" rel="stylesheet">
+  <!-- referencia ao arquivo css com estilos especificos da pagina -->
+  <!--<link href="custom.css" type="text/css" rel="stylesheet"> -->
+  <!-- css necessario para o print -->
+  <link href="css/fa/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+  <link href="css/aos.css" type="text/css" rel="stylesheet">
+  <link href="css/01_02_03.css" type="text/css" rel="stylesheet">
+  <link href="css/print.css" type="text/css" rel="stylesheet">
+  <!-- Estilos do visualizador -->
+  <link rel="stylesheet" href="objetos/olho3d/viewer_3d/css/viewer.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  <!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Jos� Renato dos Santos Pereira</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
+<mso:Order msdt:dt="string">20151600.0000000</mso:Order>
+<mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Jos� Renato dos Santos Pereira</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
+<mso:ContentTypeId msdt:dt="string">0x010100393332CEE5C5294F9D2C3CF7CCDACBE5</mso:ContentTypeId>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+</head>
+
+<body onLoad="Javascript:document.getElementById('sncloader').style.display='none';" class="conteudo1">
+  <!-- MARCA D´ÁGUA -->
+  <img src="images/logo_senac_colorido.png" id="marcadaguaLogo">
+  <!-- /MARCA D´ÁGUA -->
+  <div id='sncloader' class='over-loader'>
+    <div class="over-cell">
+      <div id="sncload"></div>
+    </div>
+  </div>
+  <header id="topo" class="senac no-print">
+    <div class="header-tecnicos container">
+      <h1 id="nome-curso">Técnico em Óptica</h1>
+      <div id="logo-senac"><img src="images/logo-senac.png" alt="logo do senac"></div>
+    </div>
+    <div id="sombra"></div>
+  </header>
+  <div id="booklet" class="fundo-tecnicos">
+    <header class="no-print">
+      <!-- BTO IMPRIMIR -->
+      <div class="grupo-imprimir no-print">
+        <button type="button" data-pdf="true" class="bto-imprimir" name="button">
+          <span class="fa fa-print"></span> <span>Imprimir</span>
+        </button>
+      </div>
+      <!-- /BTO IMPRIMIR -->
+    </header>
+    <!-- - - - - - - - - - - - - - - - não alterar acima - - - - - - - - - - - - -->
+    <section class="paginas">
+      <!-- - - - - - - - cada página é independente  - - - - - - - - - - -->
+      <div class="pagina" id="topo">
+        <div class="container">
+          <!-- Menu -->
+          <input type="checkbox" id="menu" name="menu" class="menu-checkbox no-print">
+          <div class="menu no-print fade-check" aria-hidden="true">
+            <div id="style-2" class="scroll-bar">
+              <div class="force-overflow">
+                <label class="menu-toggle no-print" for="menu"><span>Toggle</span></label>
+                <ul class="eng-item-menu">
+                  <li class="item1">
+                    <a href="#t1" class="fundo-item">Manuseio de lentes de contato </a>
+                    <hr>
+                  </li>
+                  <li class="item2">
+                    <a href="#t2" class="fundo-item margin-l">Treinamento ao usuário de LC</a>
+                    <hr>
+                  </li>
+                  <li class="item3">
+                    <a href="#t3" class="fundo-item margin-l">Processo de manuseio de LC gelatinosa</a>
+                    <hr>
+                  </li>
+                  <li class="item4">
+                    <a href="#t4" class="fundo-item margin-l">Colocação de LC gelatinosa </a>
+                    <hr>
+                  </li>
+                  <li class="item5">
+                    <a href="#t5" class="fundo-item margin-l">Remoção de LC gelatinosa </a>
+                    <hr>
+                  </li>
+                  <li class="item6">
+                    <a href="#t6" class="fundo-item margin-l">Limpeza de LC gelatinosa </a>
+                    <hr>
+                  </li>
+                  <li class="item7">
+                    <a href="#t7" class="fundo-item margin-l">Manuseio de LC RGP</a>
+                    <hr>
+                  </li>
+                  <li class="item8">
+                    <a href="#t8" class="fundo-item margin-l">Colocação de LC RGP corneana</a>
+                    <hr>
+                  </li>
+                  <li class="item9">
+                    <a href="#t9" class="fundo-item margin-l">Remoção de LC RGP corneana </a>
+                    <hr>
+                  </li>
+                  <li class="item10">
+                    <a href="#t10" class="fundo-item margin-l">Limpeza de LC RGP corneana </a>
+                    <hr>
+                  </li>
+                  <li class="item11">
+                    <a href="#t11" class="fundo-item margin-l">Manuseio de LC RGP escleral </a>
+                    <hr>
+                  </li>
+                  <li class="item12">
+                    <a href="#t12" class="fundo-item margin-l">Colocação de LC RGP escleral </a>
+                    <hr>
+                  </li>
+                  <li class="item13">
+                    <a href="#t13" class="fundo-item margin-l">Remoção de LC RGP escleral </a>
+                    <hr>
+                  </li>
+                  <li class="item14">
+                    <a href="#t14" class="fundo-item margin-l">Limpeza de LC RGP escleral </a>
+                    <hr>
+                  </li>
+                  <li class="item15">
+                    <a href="#t15" class="fundo-item margin-l">Desproteinização de LC gelatinosa e RGP </a>
+                    <hr>
+                  </li>
+                  <li class="item16">
+                    <a href="#t16" class="fundo-item margin-l">Cuidados com o estojo da LC </a>
+                    <hr>
+                  </li>
+                  <li class="item17">
+                    <a href="#t17" class="fundo-item margin-l">Validade de LC gelatinosa e RGP </a>
+                    <hr>
+                  </li>
+                  <li class="item18">
+                    <a href="#t18" class="fundo-item margin-l">Data de validade de LC gelatinosa </a>
+                    <hr>
+                  </li>
+                  <li class="item19">
+                    <a href="#t19" class="fundo-item margin-l">Data de validade de LC RGP </a>
+                    <hr>
+                  </li>
+                  <li class="item20">
+                    <a href="#t20" class="fundo-item margin-l">Período de uso diário de LC gelatinosa e RGP </a>
+                    <hr>
+                  </li>
+                  <li class="item21">
+                    <a href="#t21" class="fundo-item margin-l">Conclusão</a>
+                    <hr>
+                  </li>
+                  <li class="item22">
+                    <a href="#t22" class="fundo-item">Composição dos produtos de conservação e limpeza para lentes de
+                      contato </a>
+                    <hr>
+                  </li>
+                  <li class="item23">
+                    <a href="#t23" class="fundo-item margin-l">Soluções para LC gelatinosa </a>
+                    <hr>
+                  </li>
+                  <li class="item24">
+                    <a href="#t24" class="fundo-item margin-l">Soluções para LC RGP </a>
+                    <hr>
+                  </li>
+                  <li class="item25">
+                    <a href="#t25" class="fundo-item margin-l">Solução desproteinizante </a>
+                    <hr>
+                  </li>
+                  <li class="item26">
+                    <a href="#t26" class="fundo-item margin-l">Conclusão </a>
+                    <hr>
+                  </li>
+                  <li class="item27">
+                    <a href="#t27" class="fundo-item">Relação entre os materiais das lentes de contato e o tempo de
+                      uso</a>
+                    <hr>
+                  </li>
+                  <li class="item28">
+                    <a href="#t28" class="fundo-item">Tempo de uso relacionado aos materiais da LC hidrofílica
+                      (gelatinosa) </a>
+                    <hr>
+                  </li>
+                  <li class="item29">
+                    <a href="#t29" class="fundo-item margin-l">Tempo de uso relacionado aos materiais de LC RGP </a>
+                    <hr>
+                  </li>
+                  <li class="item30">
+                    <a href="#t30" class="fundo-item margin-l">Conclusão</a>
+                    <hr>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id="t1">
+            <h2>Manuseio das lentes de contato</h2>
+            <p>
+              Após o profissional técnico em óptica, especialista em lentes de contato (LC), finalizar o processo de
+              adaptação, é realizado o pedido das LC. O próximo passo é convidar o candidato a retornar ao setor de
+              adaptação para a entrega das suas novas LC.
+            </p>
+            <p>
+              Neste momento, o profissional prestará um treinamento de manuseio ao usuário de LC, em que será explicado
+              todo
+              o procedimento de uso, como a colocação e a remoção das LC, a limpeza e seu acondicionamento, assim como a
+              orientação sobre o tempo de uso e validade.
+            </p>
+            <p>
+              Neste conteúdo, você acompanhará o processo de treinamento ao usuário de LC hidrofílicas (gelatinosas) e
+              rígidas gás permeáveis (RGP) corneanas e esclerais, a composição dos produtos necessários à realização da
+              manutenção dessas LC e seu tempo de uso.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t2">
+            <h3>Treinamento ao usuário de LC</h3>
+            <p>
+              Antes de iniciar o processo de manuseio, o profissional técnico em óptica, especialista em LC, deverá
+              orientar
+              o usuário. Conheça as instruções a seguir.
+            </p>
+            <p class="no-print" aria-hidden="true">Clique ou toque para visualizar o conteúdo.</p>
+            <div class="no-print painel-treinamento" aria-hidden="true">
+              <button type="button" class="btn-treinamento1" data-toggle="modal" data-target="#myModal1"></button>
+              <button type="button" class="btn-treinamento2" data-toggle="modal" data-target="#myModal2"></button>
+              <button type="button" class="btn-treinamento3" data-toggle="modal" data-target="#myModal3"></button>
+              <button type="button" class="btn-treinamento4" data-toggle="modal" data-target="#myModal4"></button>
+              <button type="button" class="btn-treinamento5" data-toggle="modal" data-target="#myModal5"></button>
+              <button type="button" class="btn-treinamento6" data-toggle="modal" data-target="#myModal6"></button>
+            </div>
+            <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-live="polite" aria-atomic="true" aria-hidden="false">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content no-print">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Reservar um local propício para o manuseio das suas LC
+                    </h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      O local para a higienização das LC deverá ser um ambiente limpo, com boa iluminação, espelho e
+                      aparador protegido com toalha sem fiapos ou de papel, na superfície do móvel utilizado, a fim de
+                      aparar a LC caso ocorra sua queda, durante as tentativas de colocação.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-live="polite" aria-atomic="true" aria-hidden="false">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content no-print">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Manter as unhas aparadas e limpas </h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Para preservar a boa higiene no manuseio e evitar a danificação das LC ou até mesmo ferir a
+                      superfície ocular durante as tentativas, é fundamental o usuário ter suas unhas bem aparadas e
+                      limpas.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-live="polite" aria-atomic="true" aria-hidden="false">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content no-print">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Realizar a lavagem das mãos</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      É primordial realizar a lavagem correta das mãos ao manusear LC, de preferência com sabonete
+                      neutro
+                      sem hidratantes, para que não impregne no material das LC (você pode acompanhar a lavagem correta
+                      das mãos no conteúdo “Biossegurança aplicada à adaptação de lentes de contato”, na UC09).
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-live="polite" aria-atomic="true" aria-hidden="false">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content no-print">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Secagem das mãos </h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      A água poderá ser um veículo de contaminação de fungos e protozoários para a LC. Então, é
+                      importante
+                      realizar a secagem das mãos, dando sempre preferência a toalhas sem fiapos ou toalhas de papel.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-live="polite" aria-atomic="true" aria-hidden="false">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content no-print">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Não utilizar álcool em gel</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Não é aconselhável utilizar álcool em gel nas mãos antes de manusear as LC, para que não danifique
+                      o
+                      material da LC e cause irritação na superfície ocular.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+              aria-live="polite" aria-atomic="true" aria-hidden="false">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content no-print">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Reservar um momento para exercitar o manuseio </h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Após o treinamento com o profissional especialista, o novo usuário seguirá para uma rotina com
+                      suas
+                      novas LC. O técnico deverá orientar o novo usuário para dar preferência a um momento tranquilo do
+                      seu dia, a fim de exercitar o manuseio das suas lentes.
+                    </p>
+                    <figure>
+                      <img src="./images/01_02_03/fig01.png" class="center-block img-responsive print borda"
+                        alt="Usuária de LC refletida no espelho, com sua lente de contato na ponta do dedo indicador, em seu ambiente de treinamento.">
+                      <figcaption>Usuário em preparo de treinamento de LC gelatinosa <br>
+                        Fonte:
+                        https://www.eyecolors.com.br/desconforto-nos-olhos-possiveis-incomodos-no-uso-de-lentes-de-contato/
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h5>Reservar um local propício para o manuseio das suas LC</h5>
+              <p>
+                O local para a higienização das LC deverá ser um ambiente limpo, com boa iluminação, espelho e aparador
+                protegido com toalha sem fiapos ou de papel, na superfície do móvel utilizado, a fim de aparar a LC caso
+                ocorra sua queda, durante as tentativas de colocação.
+              </p>
+              <h5>Manter as unhas aparadas e limpas</h5>
+              <p>
+                Para preservar a boa higiene no manuseio e evitar a danificação das LC ou até mesmo ferir a superfície
+                ocular durante as tentativas, é fundamental o usuário ter suas unhas bem aparadas e limpas.
+              </p>
+              <h5>Realizar a lavagem das mãos</h5>
+              <p>
+                É primordial realizar a lavagem correta das mãos ao manusear LC, de preferência com sabonete neutro sem
+                hidratantes, para que não impregne no material das LC (você pode acompanhar a lavagem correta das mãos
+                no
+                conteúdo “Biossegurança aplicada à adaptação de lentes de contato”, na UC09).
+              </p>
+              <h5> Secagem das mãos</h5>
+              <p>
+                A água poderá ser um veículo de contaminação de fungos e protozoários para a LC. Então, é importante
+                realizar a secagem das mãos, dando sempre preferência a toalhas sem fiapos ou toalhas de papel.
+              </p>
+              <h5>Não utilizar álcool em gel</h5>
+              <p>
+                Não é aconselhável utilizar álcool em gel nas mãos antes de manusear as LC, para que não danifique o
+                material da LC e cause irritação na superfície ocular.
+              </p>
+              <h5>Reservar um momento para exercitar o manuseio</h5>
+              <p>
+                Após o treinamento com o profissional especialista, o novo usuário seguirá para uma rotina com suas
+                novas
+                LC. O técnico deverá orientar o novo usuário para dar preferência a um momento tranquilo do seu dia, a
+                fim
+                de exercitar o manuseio das suas lentes.
+              </p>
+              <figure>
+                <img src="./images/01_02_03/fig01.png" class="center-block img-responsive print borda">
+                <figcaption>Usuário em preparo de treinamento de LC gelatinosa <br>
+                  Fonte:
+                  https://www.eyecolors.com.br/desconforto-nos-olhos-possiveis-incomodos-no-uso-de-lentes-de-contato/
+                </figcaption>
+              </figure>
+            </div>
+            <p>
+              Com todas as instruções acima alinhadas, será possível iniciar o processo de manuseio das LC com
+              segurança.
+              Acompanhe abaixo as etapas do processo:
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t3">
+            <h3>Processo de manuseio de LC gelatinosa</h3>
+            <p>
+              As lentes de contato hidrofílicas (gelatinosas), tanto as de troca anual como as descartáveis, são moles e
+              flexíveis, dessa forma, são mais difíceis de serem manuseadas pelo novo usuário.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig02.png" class="center-block img-responsive print borda"
+                alt="Usuária de frente com uma lente de contato gelatinosa na ponta do seu dedo indicador.">
+              <figcaption>Lente de contato gelatinosa <br>
+                Fonte: https://www.cmmartins.com.br/2020/12/23/lentes-de-contato-saiba-como-escolher-a-opcao-correta/
+              </figcaption>
+            </figure>
+            <p>
+              É necessário que o profissional técnico em óptica especialista oriente o novo usuário de lentes,
+              detalhando
+              todas as etapas do processo de manuseio das suas novas LC. Acompanhe as etapas a seguir.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t4">
+            <h4>Colocação de LC gelatinosa</h4>
+            <p>
+              Ao manusear lentes de contato, deve-se sempre lavar e secar as mãos. Para iniciar a etapa de colocação da
+              LC
+              gelatinosa, verifique se ela está do lado correto ou do avesso. Conheça duas maneiras práticas de
+              verificação.
+            </p>
+            <ol>
+              <li>A primeira técnica é colocá-la na ponta do dedo indicador. Caso a LC esteja do avesso, apresentará
+                suas
+                bordas tensas para fora. Já do lado correto, apresentará um formato de concha. Confira no desenho.</li>
+              <div class="row margem-1">
+                <div class="col-xs-12 col-sm-6">
+                  <img src="./images/01_02_03/fig02a.png" class="img-responsive">
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <img src="./images/01_02_03/fig02b.png" class="img-responsive">
+                </div>
+              </div>
+              <div class="acessivel no-print">
+                <p>Duas ilustrações identificando os lados de uma lente de contato na ponta dos dedos. À esquerda, o
+                  lado
+                  avesso, incorreto, com a borda da lente tensa para fora, à direita, está o lado correto, com a borda
+                  em
+                  formato de concha.</p>
+              </div>
+              <figcaption class="letra-menor">Lados da lente de contato <br>
+                Fonte: https://www.allaboutvision.com/pt-br/lentes-de-contato/lentes-de-contato-do-avesso/
+              </figcaption>
+              <li> Na segunda técnica para consultar o lado correto da LC, deve-se encaixá-la na prega da palma da mão,
+                fazendo um leve fechamento. Se as bordas se tocarem, a lente está do lado correto, mas se as bordas
+                virarem para fora, está do avesso. Observe a imagem.</li>
+              <div class="row margem-1">
+                <div class="col-xs-12 col-sm-6">
+                  <img src="./images/01_02_03/fig04a.png" class="img-responsive">
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                  <img src="./images/01_02_03/fig04b.png" class="img-responsive">
+                </div>
+              </div>
+              <div class="acessivel no-print">
+                <p>
+                  Duas imagens semelhantes contendo a palma de uma mão com uma lente de contato gelatinosa colorida
+                  encaixada em sua prega. Na imagem superior, as bordas da lente tocam uma na outra, indicando seu lado
+                  correto. Abaixo, as bordas viradas para fora não se tocam, indicando seu lado avesso.
+                </p>
+              </div>
+              <figcaption class="letra-menor">Lados da LC gelatinosa <br>
+                Fonte: https://blog.lentesweb.com.br/2022/05/23/existe-lado-certo-para-colocar-as-lentes-de-contato/
+              </figcaption>
+            </ol>
+            <p>
+              Após certificar-se de que a LC gelatinosa está do lado correto, é possível prosseguir na sua colocação.
+              Para
+              isso, elas devem ter sido higienizadas na etapa subsequente à sua retirada. Você verá a etapa de limpeza
+              após
+              o processo de remoção das lentes gelatinosas.
+            </p>
+            <p>
+              Para a colocação, o usuário deve se posicionar em frente a um espelho, pôr a LC no seu dedo indicador de
+              melhor coordenação e segurar a pálpebra inferior com o dedo médio da mesma mão. Com a outra mão livre,
+              deve
+              segurar a pálpebra superior firmemente, para que não feche no ato da colocação, conforme a próxima figura.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig05.png" class="center-block img-responsive print borda"
+                alt="Rosto de uma mulher colocando uma lente de contato gelatinosa transparente no olho. A lente está em seu dedo indicador enquanto seu dedo médio segura a pálpebra inferior. Com a outra mão, ela segura a pálpebra superior, utilizando três dedos.">
+              <figcaption>Colocação de LC gelatinosa <br>
+                Fonte: https://youtu.be/YzbT-LczboA?si=rVjllNB-txazijb2
+              </figcaption>
+            </figure>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t5">
+            <h4> Remoção de LC gelatinosa</h4>
+            <p>
+              A remoção de uma LC gelatinosa deve ser realizada com o máximo cuidado e atenção, para que o usuário não
+              fira
+              a conjuntiva (membrana transparente que protege a esclera). Por isso, é importante que o profissional
+              técnico
+              em óptica especialista oriente o usuário para que tenha cuidado e desenvolva sensibilidade nos dedos a fim
+              de
+              localizar sua LC e removê-la.
+            </p>
+            <p>
+              Para a remoção da LC, o usuário deve utilizar os dedos polegar e indicador em posição como se fossem uma
+              pinça, removendo a LC na porção inferior da íris, como mostra a figura.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig06.png" class="center-block img-responsive print borda"
+                alt="Olho aberto de um usuário de lente de contato gelatinosa transparente fazendo sua remoção. Com os dedos polegar e indicador, em modo de pinça, ele a remove na porção inferior da íris.">
+              <figcaption>Remoção de LC gelatinosa <br>
+                Fonte: https://centraloftalmica.com.br/quando-as-lentes-de-contato-grudam-nos-olhos/
+              </figcaption>
+            </figure>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t6">
+            <h4>Limpeza de LC gelatinosa</h4>
+            <p>
+              A higienização das LC deve ser realizada toda vez que são removidas dos olhos. Essa é uma etapa muito
+              importante, pois a limpeza das LC evita formações de depósitos nelas e, consequentemente, complicações
+              oculares que esses depósitos possam causar. Os depósitos de LC e suas complicações serão vistos nos
+              próximos
+              títulos.
+            </p>
+            <p>
+              Para limpar a lente de contato gelatinosa, o usuário deve posicioná-la na palma da mão de menor
+              coordenação.
+              Com a outra mão livre, ele realizará a fricção de limpeza com o dedo indicador. Para isso, instilar
+              algumas
+              gotas da solução multiúso específica para LC gelatinosa, que fará a higienização completa e a desinfecção
+              das
+              lentes.
+            </p>
+            <p>
+              Uma fricção leve em movimentos circulares deve ser realizada para remover resíduos lacrimais e prováveis
+              poluentes que foram aderidos à LC durante o período de uso, conforme mostra a figura.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig07.png" class="center-block img-responsive print borda"
+                alt="Palma da mão aberta de uma mulher, com uma lente de contato gelatinosa transparente no centro da palma. Ela está realizando a limpeza da lente, friccionando-a com a ponta do dedo indicador de sua outra mão.">
+              <figcaption>Limpeza de LC gelatinosa <br>
+                Fonte: https://www.homelentes.com.br/2020/06/24/como-limpar-suas-lentes-de-contato-gelatinosas/
+              </figcaption>
+            </figure>
+            <p>
+              Após a fricção, o usuário deverá enxaguar a LC na solução multiúso e acondicioná-la em estojo próprio para
+              esse fim, imersa na mesma solução.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig08.png" class="center-block img-responsive print borda"
+                alt="Estojo branco para lentes de contato. O lado esquerdo do recipiente está fechado com tampa e o lado direito está com a tampa aberta enquanto é instilada uma solução em gotas para acondicionamento da lente.">
+              <figcaption>Acondicionamento de LC gelatinosa <br>
+                Fonte: https://www.minhavida.com.br/materias/materia-17709
+              </figcaption>
+            </figure>
+            <p>
+              Sempre substituir a solução do estojo a cada uso das LC. O ideal é verificar qual é o olho (direito ou
+              esquerdo) da LC que está sendo manuseada, para acondicioná-la na cavidade correta, normalmente indicada
+              com
+              cores diferentes nas tampas.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig09.png" class="center-block img-responsive print borda"
+                alt="Rosto de uma mulher loira, de cabelos lisos, sorrindo. Ela está segurando as tampas de um estojo de lentes de contato sobre seus olhos. A tampa para o olho direito é branca e a tampa para o olho esquerdo é azul.">
+              <figcaption>Tampas de estojo de LC <br>
+                Fonte: https://catarataerefrativa.com.br/foco-nos-cuidados-com-o-estojo-para-lentes-de-contato/
+              </figcaption>
+            </figure>
+            <p>
+              Após acondicionar as LC, deve-se fechar bem as tampas do estojo e armazená-lo em um local seco e arejado,
+              até
+              a próxima utilização das lentes.
+            </p>
+            <div class="caixa-destaque icone-atencao">
+              <p>
+                Ao guardar as LC, é aconselhável verificar se estão no fundo do estojo, totalmente imersas na solução,
+                para
+                evitar danos ao serem fechadas junto à tampa, caso fiquem na superfície.
+              </p>
+            </div>
+            <figure>
+              <img src="./images/01_02_03/fig10.png" class="center-block img-responsive print borda"
+                alt="Estojo branco destampado contendo lentes de contato gelatinosas mal acondicionadas, rentes à borda do estojo. Há uma tampa cinza apoiada no estojo e uma tampa branca atrás dele.">
+              <figcaption>Mal acondicionamento de LC gelatinosa no estojo <br>
+                Fonte: https://centraloftalmica.com.br/dicas-essenciais-cuide-das-suas-lentes/
+              </figcaption>
+            </figure>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t7">
+            <h3> Manuseio de LC RGP</h3>
+            <p>
+              As LC RGP são lentes de adaptação mais complexa, com maior durabilidade e alto custo e, desse modo,
+              necessitam
+              do cuidado redobrado do usuário, que precisa estar comprometido com seu manuseio.
+            </p>
+            <p>
+              Caberá ao profissional técnico em óptica especialista em LC orientar o novo usuário, salientando a
+              importância
+              do comprometimento com os cuidados no manuseio de sua LC RGP.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig11.png" class="center-block img-responsive print borda"
+                alt="Dedo indicador em primeiro plano contendo uma lente de contato RGP na ponta. A lente é rígida com transparência, de tonalidade levemente azul.">
+              <figcaption>LC RGP <br>
+                Fonte: https://www.clinicadeolhosonline.com.br/lente_de_contato/lentes-de-contato-rigidas/
+              </figcaption>
+            </figure>
+            <p>
+              O material da LC RGP é rígido e não flexível, por isso, seu processo de manuseio costuma ser mais simples
+              e
+              fácil de executar. Acompanhe suas etapas de uso a seguir.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t8">
+            <h4>Colocação de LC RGP corneana</h4>
+            <p>
+              Ao manusear LC, sempre são necessárias a lavagem e a secagem das mãos. Ao colocar as LC RGP corneanas,
+              assim
+              como as gelatinosas, elas já devem estar limpas, desde o momento em que foram retiradas. A etapa de
+              limpeza
+              será vista após o processo de remoção da LC RGP corneana.
+            </p>
+            <p>
+              A colocação da LC RGP corneana é semelhante à gelatinosa, em que o usuário deve se posicionar em frente ao
+              espelho e colocar a lente no dedo indicador de melhor coordenação enquanto segura a pálpebra inferior com
+              o
+              dedo médio. Com a outra mão livre, deve segurar a pálpebra superior firmemente para que não feche durante
+              a
+              colocação. Como o diâmetro da LC RGP corneana é menor, para colocá-la não é necessária uma abertura
+              palpebral
+              tão ampla como da LC gelatinosa. Observe essa comparação na próxima imagem.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig12.png" class="center-block img-responsive print borda"
+                alt="Duas imagens lado a lado contento o rosto de perfil de uma mulher. Ela está aproximando a ponta do dedo indicador, que contém uma lente de contato, para colocá-la em seu olho. À esquerda, a mulher coloca uma lente de contato gelatinosa, abrindo amplamente as pálpebras para inseri-la. À direita, ela coloca uma lente de contato RGP corneana, de tamanho menor, abrindo suavemente as pálpebras.">
+              <figcaption>Comparação de colocação de LC gelatinosa <i>versus</i> LC RGP <br>
+                Fonte: https://www.clinicadeolhosonline.com.br/lente_de_contato/lentes-de-contato-rigidas/
+              </figcaption>
+            </figure>
+            <p>
+              O usuário deve direcionar a colocação da LC RGP corneana exatamente na córnea, usando a localização da
+              pupila
+              como referência, para que a LC RGP corneana não se desloque e se aloje na esclera, conforme é possível
+              observar na figura.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig13.png" class="center-block img-responsive print borda"
+                alt="Olho de um rosto de perfil, com uma lente de contato RGP transparente, com leve tonalidade verde. A mulher está segurando a pálpebra superior, mostrando a lente deslocada da córnea e alojada na esclera.">
+              <figcaption>LC RGP corneana alojada na esclera <br>
+                Fonte: https://www.clinicadeolhosonline.com.br/lente_de_contato/lentes-de-contato-rigidas/
+              </figcaption>
+            </figure>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t9">
+            <h4> Remoção de LC RGP corneana</h4>
+            <p>
+              No passo de remoção da LC RGP corneana, você verá como o usuário deve proceder no caso de um deslocamento
+              da
+              lente da córnea. O usuário de lentes de contato RGP corneanas poderá extrair sua LC do olho por meio de
+              duas
+              técnicas.
+            </p>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div class="panel-group gaitinha" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        Remoção com ventosa extratora
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                          <p class="margem-2">
+                            A ventosa extratora para LC RGP corneana é um pequeno utensílio de borracha que, ao ser
+                            encostado
+                            na
+                            LC RGP, adere ao material, sendo possível a sua remoção. Observe o utensílio na figura.
+                          </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                          <figure>
+                            <img src="./images/01_02_03/fig14.png" class="center-block img-responsive print borda"
+                              alt="Sobre uma toalha de papel, há um objeto azul e um estojo transparente de armazenamento. O utensílio é uma ventosa extratora para lente de contato RGP corneana.">
+                            <figcaption>Ventosa extratora para LC RGP corneana <br>
+                              Fonte: https://www.clinicadeolhosonline.com.br/lente_de_contato/lentes-de-contato-rigidas/
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                          <p class="margem-2">
+                            Para a extração com a ventosa, o usuário deverá segurar o utensílio com os dedos polegar e
+                            indicador
+                            de melhor coordenação e segurar a pálpebra inferior com o dedo médio da mesma mão. Com a
+                            outra
+                            mão
+                            livre, deve segurar a pálpebra superior firmemente, para que não feche no ato da remoção.
+                            Olhando
+                            fixamente para o espelho, encostar a ventosa no centro da LC e removê-la. Confira a remoção
+                            de
+                            uma
+                            LC RGP corneana na imagem.
+                          </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                          <figure>
+                            <img src="./images/01_02_03/fig15.png" class="center-block img-responsive print borda"
+                              alt="Rosto de uma mulher de perfil segurando a pálpebra superior e removendo sua lente de contato RGP corneana com uma ventosa extratora de cor azul. ">
+                            <figcaption>Remoção de LC RGP corneana com ventosa extratora <br>
+                              Fonte: https://www.clinicadeolhosonline.com.br/lente_de_contato/lentes-de-contato-rigidas/
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="caixa-destaque icone-importante">
+                        <p>
+                          A ventosa extratora também é usada para a remoção da LC RGP quando se desloca da córnea e fica
+                          alojada na esclera, conforme visto anteriormente na figura.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                        href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Remoção com pressão palpebral
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                          <p>
+                            A segunda técnica de remoção das LC RGP corneanas é mais simples e rápida, porém alguns
+                            profissionais oftalmologistas, especialistas em pálpebras, pedem atenção em sua execução.
+                            Com
+                            o
+                            passar do tempo, pode haver uma perda do tônus palpebral, causando
+                            <strong>blefaroptose</strong>,
+                            que é a
+                            incapacidade do músculo elevador da pálpebra superior subir até sua estrutura normal.
+                          </p>
+                          <p>
+                            Para remover as lentes RGP corneanas com pressão palpebral, o usuário deve abrir amplamente
+                            o
+                            olho,
+                            de forma natural, e puxar a extremidade temporal das pálpebras, causando uma pressão nas
+                            bordas da
+                            lente e expulsando-a. Com a outra mão, o usuário deve aparar a queda da LC. Veja o movimento
+                            de
+                            remoção da LC RGP corneana sob pressão palpebral na figura.
+                          </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                          <figure class="margem-3">
+                            <img src="./images/01_02_03/fig16.png" class="center-block img-responsive print borda"
+                              alt="Rosto de uma mulher de perfil puxando a extremidade temporal de suas pálpebras para remover sua lente de contato RGP corneana por meio da pressão palpebral. ">
+                            <figcaption>Remoção de LC RGP com pressão palpebral <br>
+                              Fonte: https://www.clinicadeolhosonline.com.br/lente_de_contato/lentes-de-contato-rigidas/
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h5> Remoção com ventosa extratora </h5>
+              <p>
+                A ventosa extratora para LC RGP corneana é um pequeno utensílio de borracha que, ao ser encostado na LC
+                RGP,
+                adere ao material, sendo possível a sua remoção. Observe o utensílio na figura.
+              </p>
+              <figure>
+                <img src="./images/01_02_03/fig14.png" class="center-block img-responsive print borda">
+                <figcaption>Ventosa extratora para LC RGP corneana <br>
+                  Fonte: https://www.clinicadeolhosonline.com.br/lente_de_contato/lentes-de-contato-rigidas/
+                </figcaption>
+              </figure>
+              <p>
+                Para a extração com a ventosa, o usuário deverá segurar o utensílio com os dedos polegar e
+                indicador
+                de melhor coordenação e segurar a pálpebra inferior com o dedo médio da mesma mão. Com a outra mão
+                livre, deve segurar a pálpebra superior firmemente, para que não feche no ato da remoção. Olhando
+                fixamente para o espelho, encostar a ventosa no centro da LC e removê-la. Confira a remoção de uma
+                LC RGP corneana na imagem.
+              </p>
+              <figure>
+                <img src="./images/01_02_03/fig15.png" class="center-block img-responsive print borda">
+                <figcaption>Remoção de LC RGP corneana com ventosa extratora <br>
+                  Fonte: https://www.clinicadeolhosonline.com.br/lente_de_contato/lentes-de-contato-rigidas/
+                </figcaption>
+              </figure>
+              <div class="caixa-destaque icone-importante">
+                <p>
+                  A ventosa extratora também é usada para a remoção da LC RGP quando se desloca da córnea e fica
+                  alojada na esclera, conforme visto anteriormente na figura.
+                </p>
+              </div>
+              <h5>Remoção com pressão palpebral </h5>
+              <p>
+                A segunda técnica de remoção das LC RGP corneanas é mais simples e rápida, porém alguns
+                profissionais oftalmologistas, especialistas em pálpebras, pedem atenção em sua execução. Com o
+                passar do tempo, pode haver uma perda do tônus palpebral, causando <strong>blefaroptose</strong>,
+                que é a
+                incapacidade do músculo elevador da pálpebra superior subir até sua estrutura normal.
+              </p>
+              <p>
+                Para remover as lentes RGP corneanas com pressão palpebral, o usuário deve abrir amplamente o
+                olho,
+                de forma natural, e puxar a extremidade temporal das pálpebras, causando uma pressão nas bordas da
+                lente e expulsando-a. Com a outra mão, o usuário deve aparar a queda da LC. Veja o movimento de
+                remoção da LC RGP corneana sob pressão palpebral na figura.
+              </p>
+              <figure>
+                <img src="./images/01_02_03/fig16.png" class="center-block img-responsive print borda">
+                <figcaption>Remoção de LC RGP com pressão palpebral <br>
+                  Fonte: https://www.clinicadeolhosonline.com.br/lente_de_contato/lentes-de-contato-rigidas/
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t10">
+            <h4> Limpeza de LC RGP corneana</h4>
+            <p>
+              A limpeza da LC deverá ser realizada toda vez que for removida dos olhos. Para a limpeza da LC RGP
+              corneana,
+              o
+              usuário deve posicioná-la com a parte interna (côncava) virada para cima, na palma da mão de menor
+              coordenação. Com a outra mão livre, deve ser realizada a fricção de limpeza com o dedo indicador. Veja a
+              posição <strong>correta</strong> para a limpeza da lente RGP corneada na próxima figura.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig17.png" class="center-block img-responsive print borda"
+                alt="Palma de uma mão com uma lente de contato RGP corneana sobre ela, com seu lado côncavo virado para cima, para sua limpeza.">
+              <figcaption>Posição correta da LC RGP corneana para a limpeza <br>
+                Fonte: Senac EAD (2024)
+              </figcaption>
+            </figure>
+            <p>
+              Instilar algumas gotas da solução multiúso específica para LC RGP corneana, para sua limpeza completa e
+              desinfecção. Realiza-se uma fricção firme, com cautela para não pressionar a parte externa (convexa) da
+              lente,
+              evitando risco de quebra do material. Veja a posição <strong>incorreta</strong> para a limpeza da lente na
+              figura.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig18.png" class="center-block img-responsive print borda"
+                alt="Palma de uma mão com uma lente de contato RGP corneana sobre ela, com seu lado côncavo virado para baixo, forma incorreta para a realização de sua limpeza. ">
+              <figcaption>Posição incorreta da LC RGP corneana para a limpeza <br>
+                Fonte: Senac EAD (2024)
+              </figcaption>
+            </figure>
+            <p>
+              Após a fricção, o usuário deverá enxaguar a lente com a solução e acondicioná-la em seu estojo, imersa na
+              mesma solução. Confira o acondicionamento da LC RGP corneana na figura.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig19.png" class="center-block img-responsive print borda"
+                alt="Estojo branco para lentes de contato com duas cavidades. A cavidade direita está aberta, contendo uma lente RGP corneana com filtragem em tom verde, imersa em solução multiúso. À esquerda, a cavidade está tampada.">
+              <figcaption>LC RGP corneana acondicionada em estojo e imersa em solução multiúso <br>
+                Fonte: Senac EAD (2024)
+              </figcaption>
+            </figure>
+            <p>
+              A solução do estojo deve ser substituída sempre a cada utilização das LC. Como realizado nas gelatinosas,
+              sempre verificar qual olho (direito ou esquerdo) da LC que está sendo manuseada, para acondicioná-la na
+              cavidade correta, normalmente indicada com tampas de cores diferentes.
+            </p>
+            <p>
+              As LC RGP corneanas podem ser acondicionadas a seco sem nenhuma contraindicação, porém, dessa forma, o
+              usuário
+              não se beneficiará da hidratação e da desinfecção das lentes enquanto estiverem imersas na solução
+              multiúso.
+              Observe na figura o acondicionamento da LC RGP corneana no estojo, a seco.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig20.png" class="center-block img-responsive print borda"
+                alt="Mão segurando estojo branco para lentes de contato com duas cavidades. À esquerda, a cavidade está tampada. A cavidade direita está aberta, contendo uma lente RGP corneana com filtragem em tom azul, acondicionada a seco. ">
+              <figcaption>Acondicionamento a seco da LC RGP corneana <br>
+                Fonte: Senac EAD (2024)
+              </figcaption>
+            </figure>
+            <p>
+              Ao serem acondicionadas no estojo, tanto imersas em solução multiúso quanto a seco, as LC RGP corneanas
+              devem
+              ser posicionadas com seu lado côncavo virado para cima evitando formar vácuo caso a superfície interna do
+              estojo seja lisa. Fechar bem as tampas do estojo e armazená-lo em um local seco e arejado, até a próxima
+              utilização das lentes.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t11">
+            <h3>Manuseio de LC RGP escleral </h3>
+            <p>
+              Devido ao seu tamanho especial de aproximadamente 16mm, as LC RGP esclerais apresentam certas
+              particularidades
+              no processo de manuseio. Veja a comparação de tamanho de uma LC RGP corneana e uma LC RGP escleral.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig21.png" class="center-block img-responsive print borda"
+                alt="Dedo indicador virado para cima contendo em sua ponta uma lente de contato RGP corneana de tom azul e ao lado uma lente de contato RGP escleral transparente, maior que a primeira. ">
+              <figcaption>Comparação de tamanho entre LC RGP corneana e escleral <br>
+                Fonte: https://drmurilodomingues.com.br/ceratocone/lentes-para-ceratocone/
+              </figcaption>
+            </figure>
+            <p>
+              Por se tratar de um manuseio mais complexo, é necessário que o profissional especialista tenha dedicação,
+              tempo e paciência, assim como o novo usuário de LC RGP escleral, no início do processo. Acompanhe o passo
+              a
+              passo a seguir.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t12">
+            <h4>Colocação de LC RGP escleral</h4>
+            <p>
+              É necessário sempre lavar e secar as mãos antes de manusear lentes de contato. Ao realizar a colocação das
+              LC
+              RGP esclerais, assim como dos outros tipos de LC, elas já devem estar limpas, desde o momento em que foram
+              retiradas. A etapa de limpeza será vista após o processo de remoção da LC RGP escleral.
+            </p>
+            <p>
+              Para a colocação da LC RGP escleral, é necessário encher completamente a sua cavidade com solução
+              fisiológica
+              a 0,9%, que resultará em uma espécie de reservatório entre a LC e a córnea.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig22.png" class="center-block img-responsive print borda"
+                alt="Mão segurando uma lente de contato RGP escleral na ponta dos dedos, com sua cavidade virada para cima contendo solução fisiológica a 0,9%. ">
+              <figcaption>LC RGP escleral com solução fisiológica a 0,9% em sua cavidade <br>
+                Fonte: Senac EAD (2024)
+              </figcaption>
+            </figure>
+            <p>
+              Dessa forma, será necessário obter um apoio para segurar a LC cheia, sem derrubar a solução no ato da
+              colocação. Conheça as duas técnicas existentes para apoio da colocação da LC RGP escleral.
+            </p>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div class="panel-group gaitinha" id="accordion1" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive"
+                        aria-expanded="true" aria-controls="collapseFive">
+                        Técnica de colocação com a ventosa extratora
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseFive" class="panel-collapse collapse in" role="tabpanel"
+                    aria-labelledby="headingFive">
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                          <p class="margem-2">
+                            A primeira técnica é realizada com o uso de uma ventosa extratora, específica para LC RGP
+                            escleral,
+                            com tamanho maior que a ventosa extratora convencional para lente corneana. Veja o
+                            comparativo
+                            entre
+                            as duas ventosas na imagem.
+                          </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                          <figure>
+                            <img src="./images/01_02_03/fig23.png" class="img-responsive print borda"
+                              alt="Duas ventosas extratoras lado a lado. À esquerda, maior, de cor vermelha, para LC RGP escleral. À direita, menor, de cor azul, para LC RGP corneana. ">
+                            <figcaption>Comparação de tamanho das ventosas extratoras para LC RG <br>
+                              Fonte: Senac EAD (2024)
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                          <p class="margem-2">
+                            Para a realização dessa técnica, primeiramente, o usuário deverá apoiar a LC na ventosa, sem
+                            realizar sucção, depois encher a cavidade da lente com a solução salina a 0,9%, conforme a
+                            imagem.
+                          </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                          <figure>
+                            <img src="./images/01_02_03/fig24.png" class="img-responsive print borda"
+                              alt="Mão segurando uma ventosa específica para LC RGP escleral, na cor laranja, com uma lente na base, com sua cavidade virada para cima, contendo solução salina 0,9% até a borda. ">
+                            <figcaption>LC RGP escleral na ventosa com solução salina a 0,9% <br>
+                              Fonte: Senac EAD (2024)
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion1"
+                        href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Técnica de colocação com os dedos
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                    <div class="panel-body">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                          <p class="margem-2">
+                            A segunda técnica é realizada formando-se um tripé com três dedos (polegar, indicador e
+                            médio)
+                            e,
+                            posteriormente, enchendo a LC com soro fisiológico 0,9% antes de levá-la ao olho.
+                          </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                          <figure>
+                            <img src="./images/01_02_03/fig25.png" class="center-block img-responsive print borda"
+                              alt="Mão apoiando uma LC RGP escleral, com a cavidade voltada para cima, na ponta de três dedos, o polegar, o indicador e o médio.">
+                            <figcaption>Apoio com os dedos para a colocação da LC RGP escleral <br>
+                              Fonte: https://www.clinicadeolhosonline.com.br/lente_de_contato/lentes-de-contato-rigidas/
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                          <p class="margem-2">
+                            O usuário deverá apoiar a lente na mão de melhor coordenação e manter a cabeça fletida,
+                            voltada
+                            para
+                            a superfície do móvel que está utilizando de apoio, segurar as pálpebras bem abertas com a
+                            utilização dos dedos da outra mão e inserir a LC contendo a solução salina a 0,9%. Observe a
+                            posição
+                            correta de colocação da lente na próxima imagem.
+                          </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                          <figure>
+                            <img src="./images/01_02_03/fig26.png" class="center-block img-responsive print borda"
+                              alt="Mulher com a cabeça fletida e as mãos apoiadas, colocando uma LC RGP escleral com uma ventosa extratora, sob uma bancada de pia branca.">
+                            <figcaption>Colocação da LC RGP escleral <br>
+                              Fonte: Senac EAD (2024)
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                          <p class="margem-2">
+                            No ato da colocação da LC RGP escleral, deve-se evitar o derramamento da solução salina 0,9%
+                            e
+                            uma
+                            possível formação de bolhas de ar, chamadas de bolhas de inserção, situadas entre a
+                            superfície
+                            da
+                            córnea e a LC. Observe uma bolha de inserção na figura.
+                          </p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                          <figure>
+                            <img src="./images/01_02_03/fig27.png" class="center-block img-responsive print borda"
+                              alt="Olho castanho com uma LC RGP escleral, apresentando uma bolha de inserção, causada por derramamento de solução salina no ato da colocação da LC.">
+                            <figcaption>Bolha de inserção sob a LC RGP escleral <br>
+                              Fonte:
+                              https://www.rodolfomoura.pt/artigo/como-manusear-armazenar-e-cuidar-de-lentes-esclerais
+                            </figcaption>
+                          </figure>
+                        </div>
+                      </div>
+                      <p>Havendo bolhas de inserção sob a LC, ela deverá ser removida e reiniciado o processo de
+                        colocação. </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h5>Técnica de colocação com a ventosa extratora</h5>
+              <p>
+                A primeira técnica é realizada com o uso de uma ventosa extratora, específica para LC RGP
+                escleral,
+                com tamanho maior que a ventosa extratora convencional para lente corneana. Veja o comparativo
+                entre
+                as duas ventosas na imagem.
+              </p>
+              <figure>
+                <img src="./images/01_02_03/fig23.png" class="center-block img-responsive print borda">
+                <figcaption>Comparação de tamanho das ventosas extratoras para LC RG <br>
+                  Fonte: Senac EAD (2024)
+                </figcaption>
+              </figure>
+              <p>
+                Para a realização dessa técnica, primeiramente, o usuário deverá apoiar a LC na ventosa, sem
+                realizar sucção, depois encher a cavidade da lente com a solução salina a 0,9%, conforme a imagem.
+              </p>
+              <figure>
+                <img src="./images/01_02_03/fig24.png" class="center-block img-responsive print borda">
+                <figcaption>LC RGP escleral na ventosa com solução salina a 0,9% <br>
+                  Fonte: Senac EAD (2024)
+                </figcaption>
+              </figure>
+              <h5> Técnica de colocação com os dedos</h5>
+              <p>
+                A segunda técnica é realizada formando-se um tripé com três dedos (polegar, indicador e médio) e,
+                posteriormente, enchendo a LC com soro fisiológico 0,9% antes de levá-la ao olho.
+              </p>
+              <figure>
+                <img src="./images/01_02_03/fig25.png" class="center-block img-responsive print borda">
+                <figcaption>Apoio com os dedos para a colocação da LC RGP escleral <br>
+                  Fonte: https://www.clinicadeolhosonline.com.br/lente_de_contato/lentes-de-contato-rigidas/
+                </figcaption>
+              </figure>
+              <p>
+                O usuário deverá apoiar a lente na mão de melhor coordenação e manter a cabeça fletida, voltada
+                para
+                a superfície do móvel que está utilizando de apoio, segurar as pálpebras bem abertas com a
+                utilização dos dedos da outra mão e inserir a LC contendo a solução salina a 0,9%. Observe a
+                posição
+                correta de colocação da lente na próxima imagem.
+              </p>
+              <figure>
+                <img src="./images/01_02_03/fig26.png" class="center-block img-responsive print borda">
+                <figcaption>Colocação da LC RGP escleral <br>
+                  Fonte: Senac EAD (2024)
+                </figcaption>
+              </figure>
+              <p>
+                No ato da colocação da LC RGP escleral, deve-se evitar o derramamento da solução salina 0,9% e uma
+                possível formação de bolhas de ar, chamadas de bolhas de inserção, situadas entre a superfície da
+                córnea e a LC. Observe uma bolha de inserção na figura.
+              </p>
+              <figure>
+                <img src="./images/01_02_03/fig27.png" class="center-block img-responsive print borda">
+                <figcaption>Bolha de inserção sob a LC RGP escleral <br>
+                  Fonte: https://www.rodolfomoura.pt/artigo/como-manusear-armazenar-e-cuidar-de-lentes-esclerais
+                </figcaption>
+              </figure>
+              <p>Havendo bolhas de inserção sob a LC, ela deverá ser removida e reiniciado o processo de
+                colocação.
+              </p>
+            </div>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t13">
+            <h4>Remoção de LC RGP escleral</h4>
+            <p>
+              Para remover a LC RGP escleral, o usuário deverá instilar algumas gotas de colírio lubrificante na
+              superfície
+              da LC, receitado pelo seu médico oftalmologista, com a finalidade de hidratar a superfície e facilitar a
+              remoção da LC. Em seguida, deverá ser utilizada a mesma ventosa extratora específica para as LC RGP
+              esclerais
+              para a remoção da LC, posicionando-a na porção inferior da LC, puxando-a delicadamente. Veja na imagem o
+              posicionamento correto da ventosa extratora na remoção da LC RGP escleral.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig28.png" class="center-block img-responsive print borda"
+                alt="Olho castanho olhando para cima. À sua frente, há uma LC RGP escleral removida com uma ventosa, aderida na borda inferior da LC.">
+              <figcaption>Remoção da LC RGP escleral <br>
+                Fonte: https://yw.med.br/lentes-esclerais/
+              </figcaption>
+            </figure>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t14">
+            <h4> Limpeza de LC RGP escleral </h4>
+            <p>
+              O procedimento de limpeza da LC RGP escleral é idêntico ao da LC RGP corneana, inclusive com a mesma
+              solução
+              multiúso. As LC RGP esclerais poderão ser acondicionadas da mesma forma, sempre imersas em solução
+              multiúso,
+              dando preferência a estojos de maior tamanho, com cavidades mais fundas. Veja uma comparação de tamanhos
+              de
+              estojos existentes para lentes.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig29.png" class="center-block img-responsive print borda"
+                alt="Dois estojos para acondicionamento de lentes de contato. Ambos estão com a tampa do lado direito fechada e a tampa do lado esquerdo aberta. O posicionado acima é de cor cinza, com maior profundidade nas cavidades. O outro estojo é branco, com menor profundidade nas cavidades. ">
+              <figcaption>Tamanhos de estojo para acondicionamento de LC <br>
+                Fonte: Senac EAD
+              </figcaption>
+            </figure>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t15">
+            <h3>Desproteinização de LC gelatinosa e RGP </h3>
+            <p>
+              Na camada mucosa do filme lacrimal (FL) está presente uma proteína chamada <i>lisozima</i>, responsável
+              pela
+              defesa
+              da superfície ocular contra bactérias. A <i>lisozima</i> tem alto potencial para impregnar no material da
+              LC
+              com o
+              passar do tempo de uso. Dessa forma, é comum sua presença nas LC gelatinosas de troca anual e RGP, não
+              sendo
+              preocupante nas LC descartáveis pelo breve tempo de uso. Para a desproteinização das LC gelatinosas de
+              troca
+              anual e RGP, o usuário deverá realizar os passos a seguir.
+            </p>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container-fluid no-print">
+          <div class="splide" role="group">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="card">
+                    <img class="card-img-top img-responsive d-block" src="./images/01_02_03/slide1.jpg">
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img class="card-img-top img-responsive d-block" src="./images/01_02_03/slide2.jpg">
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img class="card-img-top img-responsive d-block" src="./images/01_02_03/slide3.jpg">
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="card">
+                    <img class="card-img-top img-responsive d-block" src="./images/01_02_03/slide4.jpg">
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="acessivel print">
+            <h5>Passo 1</h5>
+            <p> Lave bem as mãos e seque-as.</p>
+            <h5>Passo 2</h5>
+            <p>Remova a LC do olho.</p>
+            <h5>Passo 3</h5>
+            <p>Realize a limpeza da LC com a solução multiúso específica para o tipo de LC, friccionando-a na palma
+              da
+              mão.</p>
+            <h5>Passo 4</h5>
+            <p>
+              Guarde a lente no estojo com a solução multiúso, instilando uma gota de solução desproteinizante na
+              cavidade
+              do estojo.
+            </p>
+            <h5>Passo 5</h5>
+            <p>Repita o processo na outra LC.</p>
+            <h5>Passo 6</h5>
+            <p> Deixe agir pelo tempo indicado pelo fabricante do produto.</p>
+            <h5> Passo 7</h5>
+            <p>Descarte totalmente o líquido que foi utilizado.</p>
+            <h5>Passo 8</h5>
+            <p>
+              Enxágue bem as LC com a solução multiúso, assim como as cavidades do estojo, e reutilize suas LC
+              normalmente.
+            </p>
+          </div>
+          <p>
+            Ao realizar a desproteinização periódica, o usuário poderá desfrutar dos benefícios de suas LC
+            gelatinosas
+            de
+            troca anual e RGP por muito mais tempo. Cabe ao profissional técnico proporcionar ao novo usuário a
+            orientação
+            durante o processo de treinamento, mostrando o passo a passo de uso e falando da importância desse
+            procedimento.
+          </p>
+
+
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t16">
+            <h3>Cuidados com o estojo da LC</h3>
+            <p>
+              Para um uso saudável das LC, é importante manter seu estojo sempre higienizado, evitando o acúmulo de
+              fungos
+              e
+              bactérias que possam acarretar complicações oculares. O profissional técnico em óptica, especialista em
+              LC,
+              esclarecerá a importância dessa manutenção para o novo usuário, durante o processo de treinamento.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig30.png" class="center-block img-responsive print borda"
+                alt="Ponta dos dedos polegar e indicador segurando um estojo branco de lentes de contato, virado para baixo, derramando um líquido de dentro dele para higienização. ">
+              <figcaption>Limpeza do estojo de LC <br>
+                Fonte: https://pt.wikihow.com/Limpar-o-Estojo-das-Lentes-de-Contato
+              </figcaption>
+            </figure>
+            <p>Para a higienização do estojo das LC, o usuário deverá ser instruído conforme o passo a passo a seguir.
+            </p>
+            <ul>
+              <li>Lave as mãos e seque-as bem. </li>
+              <li>
+                Destampe o estojo, confira se não há LC em nenhuma das cavidades e vire-o de cabeça para baixo sobre a
+                pia,
+                esvaziando-o totalmente. Em seguida, agite um pouco o recipiente para retirar qualquer umidade.
+              </li>
+              <li>
+                Limpe o interior do estojo e suas tampas com mesma solução multiúso das lentes, esfregando o interior
+                do
+                recipiente com o dedo indicador.
+              </li>
+              <li>
+                Enxágue o estojo com a solução e mantenha-o virado para baixo, assim como suas tampas, em cima de um
+                papel-toalha absorvente, até a secagem natural, para ser reutilizado.
+              </li>
+            </ul>
+            <figure>
+              <img src="./images/01_02_03/fig31.png" class="center-block img-responsive print borda"
+                alt="Estojo de LC branco aberto, virado para baixo e suas duas tampas acima, viradas para baixo, branca à direita e azul-marinho à esquerda, sobre papel-toalha absorvente. ">
+              <figcaption>Secagem natural do estojo de LC e suas tampas <br>
+                Fonte: https://pt.wikihow.com/Limpar-o-Estojo-das-Lentes-de-Contato
+              </figcaption>
+            </figure>
+            <p>Importante: é aconselhável a troca do estojo das lentes de contato a cada três meses, para todos os
+              tipos
+              de LC. </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t17">
+            <h3>Validade de LC gelatinosa e RGP</h3>
+            <p>
+              Todas as LC, de qualquer material, contêm data de validade do seu fabricante, que deverá ser monitorada
+              por
+              seu distribuidor, assim como pelo profissional especialista em adaptação e pelo usuário final. Veja como
+              localizar a data de validade das LC.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t18">
+            <h4> Data de validade de LC gelatinosa</h4>
+            <p>
+              As LC gelatinosas, de troca anual, vêm do fabricante em frascos de vidro. No seu verso, é possível
+              verificar
+              a
+              data de validade. Veja na imagem.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig32.png" class="center-block img-responsive print borda"
+                alt="Ponta dos dedos segurando um frasco de vidro lacrado, com rótulo branco, contendo especificações técnicas de uma LC, com destaque para a data de validade, circulada na parte inferior do frasco. ">
+              <figcaption>Data de validade de uma LC gelatinosa de troca anual <br>
+                Fonte: Senac EAD (2024)
+              </figcaption>
+            </figure>
+            <p>
+              As LC descartáveis vêm do fabricante em pequenas caixas de papelão. No verso da caixa, juntamente com
+              outras
+              informações, é possível verificar sua data de validade. Veja imagens de fabricantes distintos.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig33.png" class="center-block img-responsive print borda"
+                alt="Rótulos de três caixas de LC descartáveis distintas, com destaque para suas datas de validade.">
+              <figcaption>Validade das LC gelatinosas descartáveis <br>
+                Fonte: https://pt.wikihow.com/Limpar-o-Estojo-das-Lentes-de-Contato
+              </figcaption>
+            </figure>
+            <p>As LC descartáveis para teste vêm do fabricante em <i>blisters</i>. Em seu lacre frontal, pode ser
+              encontrada a data de validade.</p>
+            <figure>
+              <img src="./images/01_02_03/fig34.png" class="center-block img-responsive print borda"
+                alt="Dois blisters de LC descartáveis para teste, com adesivo em seu lacre, constando informações técnicas, com a data de validade circulada. ">
+              <figcaption>Validade das LC gelatinosas descartáveis para teste <br>
+                Fonte: https://pt.wikihow.com/Limpar-o-Estojo-das-Lentes-de-Contato
+              </figcaption>
+            </figure>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t19">
+            <h4>Data de validade de LC RGP</h4>
+            <p>
+              As LC RGP vêm do fabricante em pequenos estojos de plástico, que permitem verificar sua validade no
+              verso.
+              Observe na imagem estojos de LC RGP de fabricantes distintos.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig35.png" class="center-block img-responsive print borda"
+                alt="Dois estojos de LC RGP distintos, com adesivo contendo suas informações técnicas, com a data de validade circulada.">
+              <figcaption>Validade das LC RGP <br>
+                Fonte: https://pt.wikihow.com/Limpar-o-Estojo-das-Lentes-de-Contato
+              </figcaption>
+            </figure>
+            <p>
+              É importante que o profissional técnico em óptica, especialista em LC, sempre monitore as datas de
+              validade
+              das LC do setor de adaptação, incluindo as LC de caixas de provas, que são experimentadas nos
+              candidatos.
+              Também é de responsabilidade do profissional orientar o usuário sobre o monitoramento da data de
+              validade
+              da
+              LC que ele está iniciando o uso.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t20">
+            <h3> Período de uso diário de LC gelatinosa e RGP</h3>
+            <p>
+              A indicação do período de uso diário das LC dependerá de fatores importantes, como o material empregado
+              na
+              sua
+              fabricação e possíveis indicações clínicas oculares, estabelecidas pelo médico oftalmologista do
+              usuário.
+              Cabe
+              ao profissional técnico em óptica considerar os fatores para indicar o período de uso das LC para o novo
+              usuário.
+            </p>
+            <p>
+              Quanto ao tipo de lente, pode-se seguir as orientações dos fabricantes, conforme o material empregado em
+              cada
+              LC. Veja as indicações consideradas pelos fabricantes conforme o tipo de lente.
+            </p>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div class="panel-group gaitinha" id="accordion2" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading6">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapse6"
+                        aria-expanded="true" aria-controls="collapse6">
+                        LC gelatinosa de troca anual
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading6">
+                    <div class="panel-body">
+                      <p>
+                        As LC gelatinosas de troca anual apresentam normalmente duas versões. Uma de uso diário, com
+                        tempo
+                        indicado de no máximo de 12 horas, e outra de uso prolongado, durante todo o período de
+                        vigília,
+                        com
+                        remoção somente durante o sono.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading7">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2"
+                        href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                        LC gelatinosa descartável
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+                    <div class="panel-body">
+                      <p>
+                        Atualmente, as LC gelatinosas descartáveis podem ser colocadas pela manhã e retiradas no final
+                        do
+                        dia antes de dormir, totalizando aproximadamente 16 horas de uso. O importante é o usuário
+                        estar
+                        confortável durante o tempo de uso de suas LC e sempre removê-las para dormir.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading8">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2"
+                        href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                        LC RGP corneana
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+                    <div class="panel-body">
+                      <p>
+                        A maioria das LC RGP são fabricadas em material de alto índice de permeabilidade ao oxigênio,
+                        permitindo seu uso prolongado (tempo em vigília), porém alguns fabricantes ainda dispõem de
+                        materiais de uso diário de 12 horas, sendo opcional ao técnico especialista trabalhar com esse
+                        material.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading9">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion2"
+                        href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                        LC RGP escleral
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+                    <div class="panel-body">
+                      <p>
+                        As LC RGP esclerais são produzidas com materiais de alto índice de permeabilidade ao oxigênio,
+                        porém, como seu tamanho cobre totalmente a córnea e parte da esclera, o uso diário permitido é
+                        de
+                        no máximo 12 horas. Em alguns casos, há necessidade de manutenção durante seu uso, devido ao
+                        reservatório de solução salina existente entre a córnea e a LC.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h5>LC gelatinosa de troca anual</h5>
+              <p>
+                As LC gelatinosas de troca anual apresentam normalmente duas versões. Uma de uso diário, com tempo
+                indicado
+                de no máximo de 12 horas, e outra de uso prolongado, durante todo o período de vigília, com remoção
+                somente
+                durante o sono.
+              </p>
+              <h5>LC gelatinosa descartável</h5>
+              <p>
+                Atualmente, as LC gelatinosas descartáveis podem ser colocadas pela manhã e retiradas no final do dia
+                antes
+                de dormir, totalizando aproximadamente 16 horas de uso. O importante é o usuário estar confortável
+                durante
+                o
+                tempo de uso de suas LC e sempre removê-las para dormir.
+              </p>
+              <h5>LC RGP corneana</h5>
+              <p>
+                A maioria das LC RGP são fabricadas em material de alto índice de permeabilidade ao oxigênio,
+                permitindo
+                seu
+                uso prolongado (tempo em vigília), porém alguns fabricantes ainda dispõem de materiais de uso diário
+                de
+                12
+                horas, sendo opcional ao técnico especialista trabalhar com esse material.
+              </p>
+              <h5>LC RGP escleral</h5>
+              <p>
+                As LC RGP esclerais são produzidas com materiais de alto índice de permeabilidade ao oxigênio, porém,
+                como
+                seu tamanho cobre totalmente a córnea e parte da esclera, o uso diário permitido é de no máximo 12
+                horas.
+                Em
+                alguns casos, há necessidade de manutenção durante seu uso, devido ao reservatório de solução salina
+                existente entre a córnea e a LC.
+              </p>
+            </div>
+            <p>
+              A escolha do tipo de LC é feita de comum acordo entre o profissional técnico e o usuário das LC. São
+              avaliados
+              fatores como disponibilidade de parâmetros e condições clínicas informadas pelo médico, prescrevendo o
+              tempo
+              de uso indicado. Cabe ao profissional técnico especialista avaliar cada caso, garantindo a melhor
+              escolha
+              em
+              benefício da saúde ocular do usuário.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t21">
+            <h3>Conclusão</h3>
+            <p>
+              Ao orientar o novo usuário de LC, o profissional técnico em óptica executa um dos papéis mais
+              fundamentais
+              de
+              sua atuação. O manuseio de LC é uma tarefa que requer responsabilidade e comprometimento do usuário, por
+              isso
+              é essencial a orientação correta, como visto neste conteúdo, priorizando a saúde visual do novo usuário,
+              por
+              meio do manuseio adequado e a higienização correta de suas novas LC.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t22">
+            <h2>Composição dos produtos de conservação e limpeza para lentes de contato</h2>
+            <p>
+              O mercado mundial de cuidados com a saúde dos olhos disponibiliza uma gama de soluções para lentes de
+              contato,
+              que proporcionam praticidade e segurança ao usuário. Por meio de tecnologias empregadas e muitas
+              pesquisas,
+              foi possível desenvolver fórmulas com potencial de higienização e conservação das LC que não causem
+              irritação
+              na superfície ocular do seu usuário.
+            </p>
+            <p>
+              Profissionais técnicos especialistas em LC precisam estar informados sobre lançamentos das fórmulas
+              desses
+              produtos, assim como conhecer suas composições, pois existem casos em que o usuário pode apresentar
+              intolerância a algum componente das fórmulas, com necessidade de substituir a solução ou modificar sua
+              maneira
+              de uso.
+            </p>
+            <p>
+              Neste conteúdo, você conhecerá as principais fórmulas do mercado mundial em soluções para LC e entenderá
+              o
+              porquê e quando é necessária a alteração do uso de cada produto.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t23">
+            <h4>Soluções para LC gelatinosa </h4>
+            <p>
+              As soluções para LC gelatinosas, de troca anual ou descartáveis, são as mais conhecidas no mercado
+              mundial.
+              Elas estão nas prateleiras das farmácias e nos <i>sites</i> de venda, facilitando o acesso do
+              consumidor.
+              Veja uma
+              divulgação de uma solução conhecida no mercado.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig36.png" class="center-block img-responsive print borda"
+                alt="Cartaz comercial de divulgação do produto Opti-free, do fabricante Alcon. O fundo da imagem contém água, com o frasco do produto branco em primeiro plano, com detalhes no rótulo em verde e azul. Ao lado, há círculos verdes descrevendo suas ações, abaixo, à direita, há um QR-Code.">
+              <figcaption>Produto multiúso para LC gelatinosa <br>
+                Fonte: https://embed.ustudio.com/embed/DmgYIc4TuyU9/U9KQe3HjkarU
+              </figcaption>
+            </figure>
+            <p>
+              Entre as soluções mais vendidas, é possível encontrar a versão original, com maior índice de
+              surfactante,
+              para
+              uma limpeza mais intensa, indicadas principalmente para LC gelatinosa de troca anual e usuários com
+              predisposição a impregnar suas LC com excesso de resíduos lacrimais. Para usuários com intolerância à
+              fórmula
+              tradicional, apresentando ardência e hiperemia ao colocar as LC nos olhos, é necessária a migração para
+              um
+              produto de fórmula mais leve, desenvolvida com menor taxa de surfactante, mais tolerável à superfície
+              ocular,
+              resultando em uma limpeza mais suave das LC. Veja uma das versões de solução multiúso, desenvolvida para
+              olhos
+              sensíveis.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig37.png" class="center-block img-responsive print borda"
+                alt="Mão segurando um frasco transparente, com letras verdes e azuis no rótulo, do produto Bio True, do fabricante Bauch&Lomb.">
+              <figcaption>Solução multiúso para LC gelatinosas e olhos sensíveis <br>
+                Fonte: Senac EAD (2024)
+              </figcaption>
+            </figure>
+            <p>
+              A composição de uma solução multiúso contém componentes químicos que juntos dão origem a uma formulação
+              prática e eficaz para os cuidados das LC. Confira a descrição dos componentes da fórmula de uma solução
+              multiúso para LC gelatinosa.
+            </p>
+            <p class="text-center">
+              <i>
+                Solução isotônica estéril, contendo hialuronato de sódio, sulfobetaína, poloxamina, ácido bórico,
+                borato
+                de
+                sódio, adetato dissódico e cloreto de sódio; preservada com um sistema de desinfecção duplo, contendo
+                poliaminopropil biguanida 0,00013% e poliquartenário 0,0001%.
+              </i>
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t24">
+            <h4>Soluções para LC RGP</h4>
+            <p>
+              Diferentemente das soluções multiúso para LC gelatinosa, as soluções para LC RGP não recebem uma alta
+              gama
+              de
+              disponibilidade no mercado mundial. Algumas versões são comercializadas somente no exterior, resultando
+              em
+              escassez no mercado brasileiro, o que é uma queixa dos usuários das LC RGP. Conheça a marca mais vendida
+              no
+              país, na imagem a seguir.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig38.png" class="center-block img-responsive print borda"
+                alt="Mão segurando uma caixa com rótulo nas cores azul, dourada e branca, do produto multiúso para LC RGP, da marca Boston Simplus.">
+              <figcaption>Solução multiúso para LC RGP <br>
+                Fonte: Senac EAD (2024)
+              </figcaption>
+            </figure>
+            <p>
+              A solução multiúso para LC RGP atende às LC corneanas e esclerais em todos os tipos de materiais
+              disponíveis
+              no mercado. Confira a descrição dos componentes da fórmula de uma solução multiúso para LC RGP.
+            </p>
+            <p class="text-center">
+              <i>
+                Solução multiação aquosa estéril tamponada, levemente hipertônica, contendo poloxamina,
+                hidroxialquilfosfonato, ácido bórico, borato de sódio, cloreto de sódio, hidroxipropilmetilcelulose,
+                glucan-20
+                e preservada gluconato de clorexidina 0,003% e poliaminopropilbiguanida 0,0005%.
+              </i>
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t25">
+            <h4>Solução desproteinizante</h4>
+            <p>
+              As soluções multiúso, muitas vezes, não são capazes de remover completamente a lâmina proteica das LC
+              gelatinosas de troca anual e RGP, causada pela <i>lisozima</i>. Assim, pode-se contar com a ação de uma
+              solução
+              específica desproteinizante, desenvolvida especialmente para o processo de desproteinização das LC, com
+              orientação de uso diário, semanal ou quinzenal, conforme cada fabricante. Veja o encarte comercial da
+              solução
+              desproteinizante do fabricante Bauch&Lomb.
+            </p>
+            <figure>
+              <img src="./images/01_02_03/fig40.png" class="center-block img-responsive print borda"
+                alt="Divulgação comercial do produto desproteinizante para lentes de contato, do fabricante Bauch&Lomb. Há uma mulher com as mãos ao redor do rosto na parte superior, abaixo, à esquerda, a ilustração de uma LC com pequenas esferas amarelas, simulando depósitos de proteína, à direita, uma mão segurando a caixa do frasco do desproteinizante e abaixo as indicações de uso do produto. ">
+              <figcaption>Encarte de solução desproteinizante Renu 1 Step <br>
+                Fonte: Senac EAD (2024)
+              </figcaption>
+            </figure>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t26">
+            <h4>Conclusão</h4>
+            <p>
+              É fundamental que o profissional técnico especialista esteja informado sobre a disponibilidade de
+              soluções
+              voltadas aos cuidados de LC. Os fabricantes mundiais de soluções fornecem informações ao profissional
+              que
+              trabalha com seu produto. É possível solicitar a visita de um representante ou materiais digitalizados
+              ou
+              impressos que auxiliem o profissional técnico especialista a orientar o usuário em treinamento,
+              garantindo
+              o
+              uso da solução indicada com segurança.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t27">
+            <h3> Relação entre os materiais das lentes de contato e seu tempo de uso </h3>
+            <p>
+              Ao escolher o material da LC a ser adaptada, o profissional técnico, especialista em LC, esclarece o
+              usuário
+              sobre o tempo de vida útil de suas lentes de contato, que também depende dos cuidados dedicados a elas,
+              além
+              do material empregado em sua fabricação.
+            </p>
+            <p>
+              Ao orientar corretamente o novo usuário quanto às boas práticas de manutenção de suas LC, certifique-se
+              de
+              que
+              haverá o cuidado correto para que o usuário possa desfrutar do tempo de vida útil integral de suas LC,
+              então
+              o
+              fator relevante para o tempo de uso será apenas o material das LC. Neste conteúdo, você compreenderá o
+              tempo
+              de uso de cada LC, relacionado a seu material de fabricação.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t28">
+            <h4>Tempo de uso relacionado aos materiais da LC hidrofílica (gelatinosa)</h4>
+            <p>
+              As LC gelatinosas podem ser fabricadas em diversos tipos de materiais, que darão origem ao respectivo
+              tempo
+              de
+              uso em sua vida útil.
+            </p>
+            <div class="no-print" aria-hidden="true">
+              <p>Clique ou toque para visualizar o conteúdo.</p>
+              <div class="panel-group gaitinha" id="accordion3" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading10">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion3" href="#collapse10"
+                        aria-expanded="true" aria-controls="collapse10">
+                        Material de troca anual
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse10" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading10">
+                    <div class="panel-body">
+                      <p>As LC de troca anual dispõem de um material resistente e são confeccionadas com a proposta de
+                        um
+                        ano de uso. Elas precisam ser preservadas durante a sua vida útil, seguindo a manutenção
+                        correta
+                        e
+                        o acompanhamento nas revisões. Você verá as revisões de acompanhamento ao usuário nos próximos
+                        títulos.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading11">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3"
+                        href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                        Material descartável mensal
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+                    <div class="panel-body">
+                      <p>
+                        As LC de troca mensal estão dentro do grupo das descartáveis, porém para sua durabilidade
+                        alcançar
+                        o período de um mês, requerem manutenção correta e um descarte pontual.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading12">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3"
+                        href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                        Material descartável quinzenal
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+                    <div class="panel-body">
+                      <p>
+                        Esse material é um pouco menos resistente que o anterior e requer manutenção de uso durante os
+                        seus 15 dias de durabilidade. Não é aconselhável ultrapassar o tempo de uso da LC.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="heading13">
+                    <h4 class="panel-title">
+                      <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3"
+                        href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                        Material descartável diário
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                    <div class="panel-body">
+                      <p>
+                        As LC de troca diária dispensam a manutenção de cuidados, porém será importante a orientação
+                        para
+                        que o usuário não as reutilize, informando os malefícios que podem acarretar caso não seja
+                        seguida
+                        a orientação correta.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="acessivel print">
+              <h5>Material de troca anual</h5>
+              <p>
+                As LC de troca anual dispõem de um material resistente e são confeccionadas com a proposta de um ano
+                de
+                uso.
+                Elas precisam ser preservadas durante a sua vida útil, seguindo a manutenção correta e o
+                acompanhamento
+                nas
+                revisões. Você verá as revisões de acompanhamento ao usuário nos próximos títulos.
+              </p>
+              <h5>Material descartável mensal</h5>
+              <p>
+                As LC de troca mensal estão dentro do grupo das descartáveis, porém para sua durabilidade alcançar o
+                período
+                de um mês, requerem manutenção correta e um descarte pontual.
+              </p>
+              <h5>Material descartável quinzenal</h5>
+              <p>
+                Esse material é um pouco menos resistente que o anterior e requer manutenção de uso durante os seus 15
+                dias
+                de durabilidade. Não é aconselhável ultrapassar o tempo de uso da LC.
+              </p>
+              <h5> Material descartável diário</h5>
+              <p>
+                As LC de troca diária dispensam a manutenção de cuidados, porém será importante a orientação para que
+                o
+                usuário não as reutilize, informando os malefícios que podem acarretar caso não seja seguida a
+                orientação
+                correta.
+              </p>
+            </div>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t29">
+            <h4>Tempo de uso relacionado aos materiais de LC RGP</h4>
+            <p>
+              Os materiais de LC RGP corneana ou escleral são bem mais resistentes e, consequentemente, dispõem de um
+              tempo
+              maior de uso, podendo variar de um a dois anos, conforme a orientação do seu fabricante.
+            </p>
+            <p>
+              Para que o usuário desfrute do tempo integral de uso das suas LC RGP, é importante seguir as orientações
+              do
+              técnico especialista e realizar a revisão periódica de suas LC. Você verá as revisões de acompanhamento
+              ao
+              usuário nos próximos títulos.
+            </p>
+          </div>
+          <div class="margem-div"><img src="./images/01_02_03/div.png" class="center-block img-responsive"></div>
+          <div id="t30">
+            <h3>Conclusão</h3>
+            <p>
+              O profissional técnico em óptica, especialista em LC, deve prezar a realização de uma orientação correta
+              ao
+              novo usuário, a fim de garantir o sucesso de seu trabalho, evitando problemas que possam ser causados
+              antes
+              de
+              expirar o tempo de vida útil de uma LC.
+            </p>
+            <p>
+              É fundamental a aplicação das boas práticas, orientando o usuário com informações completas e materiais
+              de
+              apoio. Além disso, o profissional deve colocar-se à disposição para ajudar no caso de possíveis
+              dificuldades
+              que o usuário tenha com suas novas LC.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- - - - - - - - - - - - - - - - não alterar abaixo- - - - - - - - - - - - -->
+    <footer class="text-center no-print">
+      <ul class="pagination" style="padding: 75px;">
+      </ul>
+    </footer>
+  </div>
+  <!--  Em caso de footer personalizado utilizar esse elemento e adicionar a classe customizada
+    <footer>
+    </footer>
+	-->
+  <!-- carrega todas as imagens dos icones nesta div
+ caso queira adicionar mais imagens de novos icones do css,
+ ou qualquer imagem que deva ser contabilizada durante a fase
+ de loading, referenciar aqui.
+ -->
+  <div class="ico-div-loader">
+    <img src="images/atencao.png">
+    <img src="images/bg-content.jpg">
+    <img src="images/bg-topo.jpg">
+    <img src="images/black-zoom-in-256.png">
+    <img src="images/concluindo.png">
+    <img src="images/curtir.png">
+    <img src="images/desafio.png">
+    <img src="images/dica.png">
+    <img src="images/doc.png">
+    <img src="images/fundamental.png">
+    <img src="images/icon-03.png">
+    <img src="images/importante.png">
+    <img src="images/lightbulb.png">
+    <img src="images/link.png">
+    <img src="images/link_pdf_hover.png">
+    <img src="images/link_pdf_normal.png">
+    <img src="images/logo-senac.png">
+    <img src="images/mark-icon.png">
+    <img src="images/mark-icon02.png">
+    <img src="images/midia.png">
+    <img src="images/monitor.png">
+    <img src="images/nao_curtir.png">
+    <img src="images/pergunta.png">
+    <img src="images/pesquisa.png">
+    <img src="images/play.png">
+    <img src="images/radio_flat.png">
+    <img src="images/refletir.png">
+    <img src="images/saiba_mais.png">
+    <img src="images/senac_loader.png">
+    <img src="images/tanamidia.png">
+    <img src="images/transcricao.png">
+    <img src="images/transcricao_small.png">
+    <img src="images/tv.png">
+    <img src="images/tv_bottom.png">
+    <img src="images/zoom.png">
+    <img src="images/zoom_ie.cur">
+    <img src="images/zoom_ie.png">
+    <!-- adicionar as imagens customizadas aqui abaixo -->
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/print.js"></script>
+  <script src="js/template.config.js"></script>
+  <script src="js/images.loader.js"></script>
+  <script src="js/01.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="./js/splide.min.js"></script>
+  <script src="./js/carousel.js"></script>
+
+  <noscript>
+    <style media="screen">
+      .over-loader {
+        display: none;
+      }
+    </style>
+  </noscript>
+
+  <script>window.addEventListener('load', function () { $('.menu-toggle').click() })</script>
+
+  <script>
+    $('.divisoria').parallax();
+
+    //inicializa popover
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+    //inicializa tooltip
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    window.addEventListener('load', function () {
+      AOS.init()
+    })
+  </script>
+
+
+
+
+  <!-- Versao atual do handtalk -->
+  <script>
+    var scriptElem = document.createElement("script");
+    scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+      scriptElem.charset = "UTF-8",
+      scriptElem.onload = function () {
+        window.ht = new HT({
+          token: "bf5b7efb148a829a126a0e0c9fd533bf",
+          align: "top",
+          videoEnabled: true,
+          ytEmbedReplace: true,
+          mobileConfig: {
+            align: "right",
+            actionsAlign: "top",
+            customButtonStyle: {
+              borderRadius: "6px",
+              size: "38px",
+              horizontalMargin: "13px",
+              bottomMargin: "140px",
+              rightMargin: "40px"
+            }
+          }
+        });
+        $('.ht-skip').attr("aria-hidden", "true")
+      },
+      document.body.appendChild(scriptElem);
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+.gaitinha {
+    margin-top: 20px;
+}
+
+.gaitinha .panel {
+    background: transparent !important;
+    border: none;
+    -webkit-box-shadow: 0;
+    box-shadow: none;
+}
+
+.gaitinha .panel-default>.panel-heading {
+    background-color: transparent !important;
+}
+
+.gaitinha .panel.panel-default .panel-heading {
+    padding: 0;
+}
+
+.gaitinha .panel.panel-default .panel-heading .panel-title a.collapsed {
+    background: #ffc85a !important;
+    color: black !important;
+}
+
+.gaitinha .panel.panel-default .panel-heading .panel-title a {
+    border: 2px solid #ffc85a !important;
+    color: black!important;
+    border-radius: 20px;
+    padding: 1.2rem;
+}
+
+
+.gaitinha .panel.panel-default .panel-body {
+    border: 0;
+    border-left: 2px solid #ffc85a!important;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gaitinha1 {
+    margin-top: 20px;
+}
+
+.gaitinha1 .panel {
+    background: transparent !important;
+    border: none;
+    -webkit-box-shadow: 0;
+    box-shadow: none;
+}
+
+.gaitinha1 .panel-default>.panel-heading {
+    background-color: transparent !important;
+}
+
+.gaitinha1 .panel.panel-default .panel-heading {
+    padding: 0;
+}
+
+.gaitinha1 .panel.panel-default .panel-heading .panel-title a.collapsed {
+    background: #fed06e !important;
+    color: #0b3b4b !important;
+    font-weight: bold;
+}
+
+.gaitinha1 .panel.panel-default .panel-heading .panel-title a {
+    border: 2px solid #fed06e !important;
+    color: #fed06e !important;
+    border-radius: 20px;
+    padding: 1.2rem;
+    font-weight: bold;
+}
+
+
+.gaitinha1 .panel.panel-default .panel-body {
+    border: 0;
+    border-left: 2px solid #fed06e !important;
+    margin-left: 20px;
+    margin-top: 3px;
+}
