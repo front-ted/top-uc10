@@ -1,10 +1,85 @@
-html,
-body {
-    background: url('');
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+.fundo-tecnicos {
+    padding: 30px 0 0 0;
 }
+
+.grupo-imprimir {
+    margin-top: 12%;
+}
+
+
+.bloco1 {
+    background: url('../images/05_06/bg01.png');
+    background-color: #f7ead7;
+    background-repeat: no-repeat;
+    color: #000;
+    padding-top: 16%;
+    padding-bottom: 10%;
+    margin-top: -15%;
+    z-index: 10;
+
+}
+
+.bloco3 {
+    background: url('../images/05_06/bg02.png');
+    background-color: #f7ead7;
+    background-repeat: no-repeat;
+    color: #000;
+    padding-top: 10%;
+    padding-bottom: 18%;
+    z-index: 5;
+}
+
+.bloco3 .container {
+    max-width: 650px;
+    margin-left: 24%;
+}
+
+.bloco1 h2 {
+    color: #ffff;
+}
+
+.bloco1 p {
+    color: #ffff !important;
+}
+
+.bloco1 h4 {
+    color: #ffff !important;
+}
+
+.bloco2,
+.bloco4 {
+    background-color: #f7ead7;
+    margin-top: -5%;
+    z-index: -1;
+}
+
+.bloco2 h4 {
+    color: #000;
+}
+
+.bloco2 li {
+    color: #000;
+}
+
+.bloco2 p {
+    color: #000;
+}
+
+.bloco3 h3 {
+    color: #ffff;
+}
+
+.bloco3 p {
+    color: #ffff;
+}
+
+.bloco4 .container {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
 
 .margin-l {
     left: 10%;
@@ -69,39 +144,6 @@ body {
     font-size: 16px !important;
 }
 
-.tabela .senac li {
-    font-size: 16px !important;
-}
-
-.senac th,
-.senac td {
-    border: 1px solid #00adaf !important;
-    padding: 8px;
-    text-align: left;
-}
-
-.senac th {
-    background-color: #f2f2f2;
-}
-
-.senac tbody tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-.senac td:nth-child(2) {
-    width: 20%;
-}
-
-.tabela {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-}
-
-figcaption {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
 
 iframe {
     margin-top: 20px;
@@ -111,7 +153,6 @@ iframe {
 h2,
 h3,
 h4 {
-    color: #50D7E2 !important;
     font-weight: bold;
 }
 
@@ -119,24 +160,6 @@ li {
     margin-bottom: 0.8em;
 }
 
-.caixa-destaque,
-.caixa-destaque-livre {
-    background-color: #0b3b4b;
-    color: #fff;
-}
-
-.caixa-destaque {
-    width: 100%;
-}
-
-.etapa {
-    width: 100%;
-}
-
-.caixa-exemplos {
-    background-color: #1e86ab;
-    color: #fff;
-}
 
 .gifs {
     max-width: 800px;
@@ -151,22 +174,91 @@ li {
     display: none;
 }
 
-@media (max-width: 820px) {
-    .mobile-link {
-        display: block;
-    }
 
-    .desktop {
-        display: none;
+
+@media (max-width: 1440px) {
+.bloco3 {
+    background: url(../images/05_06/bg02.png);
+    background-color: #f7ead7;
+    background-repeat: no-repeat;
+    color: #000;
+    padding-top: 10%;
+    padding-bottom: 26%;
+    z-index: 5;
+}
+.bloco1 {
+    background: url(../images/05_06/bg01.png);
+    background-color: #f7ead7;
+    background-repeat: no-repeat;
+    color: #000;
+    padding-top: 16%;
+    padding-bottom: 16%;
+    margin-top: -15%;
+    z-index: 10;
+}
+}
+
+
+
+
+
+
+@media (max-width: 1400px) {
+.bloco1 {
+    background: url(../images/05_06/bg01.png);
+    background-color: #f7ead7;
+    background-repeat: no-repeat;
+    color: #000;
+    padding-top: 16%;
+    padding-bottom: 18%;
+    margin-top: -15%;
+    z-index: 10;
+}
+.bloco3 {
+    background: url(../images/05_06/bg02.png);
+    background-color: #f7ead7;
+    background-repeat: no-repeat;
+    color: #000;
+    padding-top: 10%;
+    padding-bottom: 26%;
+    z-index: 5;
+}}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 820px) {
+    .bloco3 .container {
+        max-width: 650px;
+        margin-left: unset;
     }
 }
 
-@media (max-width: 768px) {
-    .painel-exemplos {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        flex-direction: column;
+@media (max-width: 768px) {}
+
+
+
+@media (max-width: 480px) {
+    .grupo-imprimir {
+        margin-top: 26%;
     }
+    .bloco1 {
+        background: url(../images/05_06/bg01.png);
+        background-color: #f7ead7;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #000;
+        padding-top: 16%;
+        padding-bottom: 10%;
+        margin-top: -15%;
+        z-index: 10;
+    }
+
+
 }
