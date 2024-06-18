@@ -6,7 +6,6 @@
     margin-top: 12%;
 }
 
-
 .bloco1 {
     background: url('../images/05_06/bg01.png');
     background-color: #f7ead7;
@@ -16,7 +15,6 @@
     padding-bottom: 10%;
     margin-top: -15%;
     z-index: 10;
-
 }
 
 .bloco3 {
@@ -28,6 +26,58 @@
     padding-bottom: 18%;
     z-index: 5;
 }
+.bloco5 {
+    background: url('../images/05_06/bg03.png');
+    background-color: #f7ead7;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+
+
+
+
+/* 
+.bloco5 {
+    position: relative;
+    height: 1364px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.bloco5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/05_06/bg03.png');
+    background-size: cover;
+    z-index: -1; 
+    background-color: #f7ead7;
+} */
+
+.text-branco{
+    color: #ffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .bloco3 .container {
     max-width: 650px;
@@ -78,6 +128,11 @@
     padding-bottom: 5%;
 }
 
+.esquemaDaBru .enunciado {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffff; 
+}
 
 
 
@@ -160,7 +215,6 @@ li {
     margin-bottom: 0.8em;
 }
 
-
 .gifs {
     max-width: 800px;
     border: 1px solid green;
@@ -188,7 +242,6 @@ li {
     border-radius: 12px;
 }
 
-
 .alt-c.selected {
     background-color: #2db534 !important;
     color: #fff
@@ -199,12 +252,14 @@ li {
     color: #fff
 }
 
-.alt-c:hover, .alt-e:hover {
+.alt-c:hover,
+.alt-e:hover {
     background-color: #00838D !important;
     color: #fff !important;
 }
 
-.esquemaDaBru .alt-c, .esquemaDaBru .alt-e{
+.esquemaDaBru .alt-c,
+.esquemaDaBru .alt-e {
     background-repeat: no-repeat;
     background-size: 30px;
     background-position-y: center;
@@ -251,11 +306,6 @@ li {
     }
 }
 
-
-
-
-
-
 @media (max-width: 1400px) {
     .bloco1 {
         background: url(../images/05_06/bg01.png);
@@ -279,25 +329,12 @@ li {
     }
 }
 
-
-
-
-
-
-
-
-
-
 @media (max-width: 820px) {
     .bloco3 .container {
         max-width: 650px;
         margin-left: unset;
     }
 }
-
-@media (max-width: 768px) {}
-
-
 
 @media (max-width: 480px) {
     .grupo-imprimir {
