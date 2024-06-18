@@ -37,10 +37,6 @@
     padding-bottom: 2%;
 }
 
-
-
-
-
 /* 
 .bloco5 {
     position: relative;
@@ -65,19 +61,6 @@
 .text-branco{
     color: #ffff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .bloco3 .container {
     max-width: 650px;
@@ -133,8 +116,6 @@
     font-weight: bold;
     color: #ffff; 
 }
-
-
 
 .margin-l {
     left: 10%;
@@ -198,7 +179,6 @@
     border: 1px solid #00adaf !important;
     font-size: 16px !important;
 }
-
 
 iframe {
     margin-top: 20px;
