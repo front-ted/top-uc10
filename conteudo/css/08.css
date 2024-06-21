@@ -1,10 +1,37 @@
-html,
-body {
-    background: url('/conteudo/images/04_07/bg_modulo.jpg');
+html, body{
+    background: linear-gradient(to bottom, #003d4f, #f7e1b5);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    position: relative;
 }
+
+.bg-verde{
+    background-color: #003d4f;
+    padding-top: 8%;
+}
+
+.fundo-tecnicos{
+    padding-top: 40px;
+}
+
+.bg-esquerdo{
+    position: absolute;
+    margin-left: -23%;
+    margin-top: -5.6%;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
+    background-color: transparent !important;
+}
+
+.bg-direito{
+    position: absolute;
+    margin-left: 45.7%;
+    margin-top: -5.6%;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
+}
+
+
+
 
 .margin-l {
     left: 10%;
@@ -73,6 +100,13 @@ body {
     font-size: 16px !important;
 }
 
+table.senac td {
+    text-align: left;
+    background-color: #fefefe;
+    color: #333;
+    border-color: #dedede;
+}
+
 .senac th,
 .senac td {
     border: 1px solid #00adaf !important;
@@ -91,6 +125,11 @@ body {
 .senac td:nth-child(2) {
     width: 20%;
 }
+
+.senac td:nth-child(3) {
+    width: 20%;
+}
+
 
 .tabela {
     overflow-x: auto;

@@ -7,7 +7,7 @@
 }
 
 .bloco1 {
-    background: url('../images/05_06/bg01.png');
+    background: url('/conteudo/images/05_06/bg01.png');
     background-color: #f7ead7;
     background-repeat: no-repeat;
     color: #000;
@@ -18,7 +18,7 @@
 }
 
 .bloco3 {
-    background: url('../images/05_06/bg02.png');
+    background: url('/conteudo/images/05_06/bg02.png');
     background-color: #f7ead7;
     background-repeat: no-repeat;
     color: #000;
@@ -27,7 +27,7 @@
     z-index: 5;
 }
 .bloco5 {
-    background: url('../images/05_06/bg03.png');
+    background: url('/conteudo/images/05_06/bg03.png');
     background-color: #f7ead7;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -258,14 +258,9 @@ li {
     background-color: #ef9a01;
 }
 
-
-
-
-
-
 @media (max-width: 1440px) {
     .bloco3 {
-        background: url(../images/05_06/bg02.png);
+        background: url(/conteudo/images/05_06/bg02.png);
         background-color: #f7ead7;
         background-repeat: no-repeat;
         color: #000;
@@ -275,7 +270,7 @@ li {
     }
 
     .bloco1 {
-        background: url(../images/05_06/bg01.png);
+        background: url(/conteudo/images/05_06/bg01.png);
         background-color: #f7ead7;
         background-repeat: no-repeat;
         color: #000;
@@ -288,7 +283,7 @@ li {
 
 @media (max-width: 1400px) {
     .bloco1 {
-        background: url(../images/05_06/bg01.png);
+        background: url(/conteudo/images/05_06/bg01.png);
         background-color: #f7ead7;
         background-repeat: no-repeat;
         color: #000;
@@ -299,7 +294,7 @@ li {
     }
 
     .bloco3 {
-        background: url(../images/05_06/bg02.png);
+        background: url(/conteudo/images/05_06/bg02.png);
         background-color: #f7ead7;
         background-repeat: no-repeat;
         color: #000;
@@ -322,7 +317,7 @@ li {
     }
 
     .bloco1 {
-        background: url(../images/05_06/bg01.png);
+        background: url(/conteudo/images/05_06/bg01.png);
         background-color: #f7ead7;
         background-repeat: no-repeat;
         background-size: cover;
