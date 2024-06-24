@@ -1,17 +1,116 @@
-.bloco1{
+.bloco1 {
     background-image: url('/conteudo/images/01_02_03/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.bloco2 {
+    background-image: url('/conteudo/images/01_02_03/bg2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
 
+.bloco3 {
+    background-image: url('/conteudo/images/01_02_03/bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.imagem-div-1 {
+    background-color: #0b3b4b;
+}
+
+.imagem-div-2 {
+    background-color: #0b3b4b;
+}
+
+.img-div2 {
+    width: 1082px;
+    height: 770px;
+    position: relative;
+    margin-top: -0.9%;
+    z-index: 1102;
+    margin-bottom: 4%;
+}
+
+.modal {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1010 !important;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1009 !important;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1003;
+    border-radius: 15px;
+}
+
+
+.img-div {
+    width: 1080px;
+    height: 769px;
+    position: relative;
+    margin-top: -1%;
+    z-index: 1010;
+}
+
+.grupo-imprimir button.bto-imprimir {
+    position: relative;
+    padding-top: 11.4px;
+    padding-bottom: 11.4px;
+    padding-left: 11.4px;
+    padding-right: 11.4px;
+    z-index: 1004;
+}
+
+.bloco1 .container {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.bloco2 .container {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin-top: -3.5%;
+}
+
+.bloco3 .container {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    margin-top: -5%;
+
+}
+
 .fundo-tecnicos {
-    /* background-image: url(../images/bg-content.jpg); */
-    background-position: 0;
-    background-repeat: repeat-y;
-    padding-left: 60px;
-    padding-right: 60px !important;
+    padding: 30px 0 0 0;
+}
+
+#booklet>header {
+    margin-top: 80px;
+    padding-right: 25vw;
+    padding-top: 0px;
+    margin-bottom: -80px;
 }
 
 .margin-l {
@@ -178,8 +277,10 @@ table.senac {
     height: 100%;
     transform: translate3d(-340px, 0, 0);
     transition: transform 0.35s;
-    z-index: 1000;
+    z-index: 999999999999;
 }
+
+
 
 .mod {
     display: block;
@@ -210,14 +311,14 @@ table.senac {
     padding: 0;
     cursor: pointer;
     text-indent: -9999px;
-    background: #fff url("/conteudo/images/menu-alt.png") 50% 50%/25px 25px no-repeat;
+    background: #50D7E2 url("/conteudo/images/menu-alt.png") 50% 50%/25px 25px no-repeat;
 }
 
 /* .menu ul li > label {
     background: url("../objetos/icon-arrow-right.png") 95% 50%/16px 16px no-repeat;
   } */
 .fade-check label.menu-toggle {
-    background: #fff url("/conteudo/images/menu-alt-close.png") 50% 50%/25px 25px no-repeat;
+    background: #50D7E2 url("/conteudo/images/menu-alt-close.png") 50% 50%/25px 25px no-repeat;
 }
 
 /* hide navigation icon for sublabels */
@@ -328,75 +429,9 @@ table.senac {
     border: 1px solid #45c0cd;
 } */
 
-/*carousel bootstrap*/
 
-.splide__arrow--prev {
-    background: url('/conteudo/images/seta_esquerda.png') no-repeat;
-    left: calc(25% - 100px);
-    width: 20%;
-}
-
-.splide__arrow--next {
-    background: url('/conteudo/images/seta_direita.png') no-repeat;
-    right: calc(33% - 100px);
-    width: 20%;
-}
-
-.splide__arrow svg {
-    display: none;
-}
-
-.splide__arrow {
-    width: 33px;
-    height: 33px;
-}
-
-.splide li {
-    list-style-image: none !important;
-}
-
-.splide__pagination__page {
-    background: #28adb0;
-    border: 0;
-    border-radius: 50%;
-    display: inline-block;
-    height: 8px;
-    margin: 3px;
-    opacity: .7;
-    padding: 0;
-    position: relative;
-    transition: transform .2s linear;
-    width: 8px;
-}
-
-.splide__pagination__page.is-active {
-    background: #28adb0;
-    transform: scale(1.6);
-    z-index: 1;
-}
-
-.splide .card {
-    position: relative;
-    border-radius: unset;
-    background: none;
-    margin-bottom: 30px;
-    transition: all .4s;
-}
-
-.splide__slide img {
-    border: 1px solid #45c0cd;
-    width: 90%;
-}
 
 /*---------- painel treinamento modais normais----------*/
-/* .painel-treinamento {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0px;
-    justify-items: center;
-    align-items: center;
-    margin: 30px 0px;
-} */
 
 .painel-treinamento {
     display: grid;
@@ -472,14 +507,57 @@ table.senac {
 
 
 /*---------- fim painel exemplos modais normais----------*/
-.modal {
-    position: fixed;
-    top: 100px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1050;
+
+.painel-passos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin: 30px 0px;
 }
+
+.passo1 {
+    width: 450px;
+    height: 229px;
+}
+
+.passo2 {
+    width: 450px;
+    height: 229px;
+}
+
+.passo3 {
+    width: 466px;
+    height: 229px;
+}
+
+.passo4 {
+    width: 475px;
+    height: 229px;
+}
+
+.passo5 {
+    width: 450px;
+    height: 229px;
+}
+
+.passo6 {
+    width: 439px;
+    height: 229px;
+}
+
+.passo7 {
+    width: 464px;
+    height: 229px;
+}
+
+.passo8 {
+    width: 481px;
+    height: 229px;
+}
+
+
 
 .margem-1 {
     margin-top: 5%;
@@ -688,13 +766,13 @@ a,
     max-width: 100%;
 }
 
-/*fim painel de abas*/
+
 
 
 @media (max-width: 1200px) {
-    .container {
+    /* .container {
         width: 1170px;
-    }
+    } */
 }
 
 
@@ -711,6 +789,10 @@ a,
 
     .carousel-control {
         width: 8%;
+    }
+
+    .painel-passos {
+        grid-template-columns: repeat(1, auto);
     }
 
 }
@@ -753,24 +835,16 @@ a,
 }
 
 @media (max-width: 420px) {
+
+    .imagem-div-1,
+    .imagem-div-2 {
+        display: none;
+    }
+
     .painel-treinamento {
         grid-template-columns: 1fr;
         justify-content: center;
 
-    }
-
-    .carousel-control {
-        width: 10%;
-    }
-
-    .carousel-indicators {
-        position: absolute;
-        bottom: 0px;
-    }
-
-    .splide__slide img {
-        border: 1px solid #45c0cd;
-        width: 90%;
     }
 
     .desktop {
@@ -779,5 +853,14 @@ a,
 
     .mobile {
         display: block;
+    }
+
+    .bloco1 .container {
+        padding-top: 18%;
+        padding-bottom: 5%;
+    }
+
+    .grupo-imprimir {
+        margin-left: 90%;
     }
 }
