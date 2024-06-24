@@ -140,11 +140,6 @@ table.senac {
     overflow: hidden;
 }
 
-
-/* ol {
-    list-style-type: none;
-} */
-
 /*---------- MENU ----------*/
 .eng-item-menu {
     opacity: 1;
@@ -280,8 +275,6 @@ table.senac {
     z-index: 999999999999;
 }
 
-
-
 .mod {
     display: block;
 }
@@ -314,9 +307,6 @@ table.senac {
     background: #50D7E2 url("/conteudo/images/menu-alt.png") 50% 50%/25px 25px no-repeat;
 }
 
-/* .menu ul li > label {
-    background: url("../objetos/icon-arrow-right.png") 95% 50%/16px 16px no-repeat;
-  } */
 .fade-check label.menu-toggle {
     background: #50D7E2 url("/conteudo/images/menu-alt-close.png") 50% 50%/25px 25px no-repeat;
 }
@@ -386,50 +376,6 @@ table.senac {
 .legenda {
     font-size: 12px;
 }
-
-/* .carousel-control {
-    background-image: none !important;
-}
-
-.carousel-control {
-    width: 5%;
-}
-
-.carousel-control img {
-    width: 100%;
-    height: auto;
-}
-
-.left.carousel-control {
-    left: 0;
-    top: 50%
-}
-
-.right.carousel-control {
-    right: 0;
-    top: 50%
-}
-
-.carousel-indicators .active {
-    width: 12px;
-    height: 12px;
-    margin: 0;
-    background-color: #45c0cd;
-}
-
-.carousel-indicators li {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #000 \9;
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid #45c0cd;
-} */
-
-
 
 /*---------- painel treinamento modais normais----------*/
 
@@ -557,8 +503,6 @@ table.senac {
     height: 229px;
 }
 
-
-
 .margem-1 {
     margin-top: 5%;
 }
@@ -591,7 +535,6 @@ iframe {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 
 h2 {
     color: #1e86ab;
@@ -671,7 +614,6 @@ li {
 .mobile {
     display: none;
 }
-
 
 /*painel de abas*/
 .nav-tabs li a {
@@ -766,9 +708,6 @@ a,
     max-width: 100%;
 }
 
-
-
-
 @media (max-width: 1200px) {
     /* .container {
         width: 1170px;
@@ -796,8 +735,6 @@ a,
     }
 
 }
-
-
 
 @media (max-width: 768px) {
     .painel-exemplos {

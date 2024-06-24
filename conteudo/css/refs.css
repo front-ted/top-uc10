@@ -16,21 +16,6 @@ p {
     padding-top: 9px;
 }
 
-.voltar {
-    width: 174px;
-    height: 39px;
-    padding: 10px;
-    border-radius: 4px;
-    gap: 10px;
-    font-weight: bold;
-    color: #000 !important;
-    background: #F5CA2E;
-    border: 1px solid #F5CA2E;
-    margin: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
-
 .btn-final {
     text-align: center;
 }
@@ -43,5 +28,3 @@ p {
 .legenda {
     font-size: 12px;
 }
-
-@media (max-width: 768px) {}
