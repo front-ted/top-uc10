@@ -1,6 +1,6 @@
 html,
 body {
-    background: url('../images/07/img.jpg');
+    background: url('/conteudo/images/refs/bg.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -11,18 +11,9 @@ p {
     word-break: break-word;
 }
 
-.espera {
-    max-width: 100%;
-    width: 750px;
-    height: 451px;
-    top: 835px;
-    left: 345px;
-    border-radius: 8px;
-    border: 1px;
-    margin: auto;
-    background: linear-gradient(0deg, #DFDFDF, #DFDFDF),
-        linear-gradient(0deg, #E4E4E4, #E4E4E4);
-    border: 1px solid #DFDFDF
+.fundo-tecnicos{
+    margin-top: 15%;
+    padding-top: 9px;
 }
 
 .voltar {

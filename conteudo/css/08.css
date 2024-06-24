@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
     background: linear-gradient(to bottom, #003d4f, #f7e1b5);
     background-size: cover;
     background-attachment: fixed;
@@ -6,32 +7,35 @@ html, body{
     position: relative;
 }
 
-.bg-verde{
+.bg-verde {
     background-color: #003d4f;
     padding-top: 8%;
 }
 
-.fundo-tecnicos{
+.fundo-tecnicos {
     padding-top: 40px;
 }
 
-.bg-esquerdo{
+.bg-esquerdo {
     position: absolute;
     margin-left: -23%;
     margin-top: -5.6%;
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
-    background-color: transparent !important;
+    /* box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
+    background-color: transparent !important; */
 }
 
-.bg-direito{
+.bg-direito {
     position: absolute;
     margin-left: 45.7%;
     margin-top: -5.6%;
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6);
+    /* box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.6); */
 }
 
-
-
+.header-tecnicos {
+    position: relative;
+    overflow: hidden;
+    height: 79px;
+}
 
 .margin-l {
     left: 10%;
@@ -190,6 +194,15 @@ li {
     display: none;
 }
 
+
+@media (max-width: 1500px) {
+
+    .bg-esquerdo,
+    .bg-direito {
+        display: none;
+    }
+}
+
 @media (max-width: 820px) {
     .mobile-link {
         display: block;
@@ -207,5 +220,11 @@ li {
         justify-content: center;
         align-content: center;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 420px) {
+    .fundo-tecnicos {
+        margin-top: 80px;
     }
 }
