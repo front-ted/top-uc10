@@ -66,7 +66,6 @@
     border-radius: 15px;
 }
 
-
 .img-div {
     width: 1080px;
     height: 769px;
@@ -99,7 +98,6 @@
     padding-top: 3%;
     padding-bottom: 5%;
     margin-top: -5%;
-
 }
 
 .fundo-tecnicos {
@@ -451,7 +449,6 @@ table.senac {
     border: none !important;
 }
 
-
 /*---------- fim painel exemplos modais normais----------*/
 
 .painel-passos {
@@ -629,7 +626,6 @@ li {
     color: #28adb0 !important;
     background-color: #ffffff !important;
     margin-right: 0;
-
 }
 
 .tab-content,
@@ -708,10 +704,23 @@ a,
     max-width: 100%;
 }
 
-@media (max-width: 1200px) {
-    /* .container {
-        width: 1170px;
-    } */
+
+
+@media (max-width: 1440px) {
+    .img-div {
+        margin-bottom: -4.6%;
+    }
+}
+
+
+@media (max-width: 1400px) {
+    .img-div {
+        margin-bottom: -5%;
+    }
+
+    .img-div2 {
+        margin-top: -1%;
+    }
 }
 
 
@@ -734,6 +743,27 @@ a,
         grid-template-columns: repeat(1, auto);
     }
 
+    .img-div {
+        margin-top: -2%;
+        margin-bottom: -8%;
+    }
+
+    .img-div2 {
+        margin-top: -1.9%;
+        margin-bottom: 3%;
+    }
+
+    .grupo-imprimir button.bto-imprimir {
+        background: #50D7E2;
+        color: #fff;
+        margin-left: 108%;
+    }
+
+    .bloco1 .container {
+        padding-top: 3%;
+        padding-bottom: 5%;
+        margin-top: -11%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -752,6 +782,12 @@ a,
         border-radius: 30px;
         height: unset;
         overflow: hidden;
+    }
+
+    .bloco1 .container {
+        padding-top: 3%;
+        padding-bottom: 5%;
+        margin-top: -12%;
     }
 
 }
