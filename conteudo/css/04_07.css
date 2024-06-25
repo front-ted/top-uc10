@@ -1,6 +1,6 @@
 html,
 body {
-    background: url('/conteudo/images/04_07/bg_modulo.jpg');
+    background: url('../images/04_07/bg_modulo.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;

@@ -1,5 +1,5 @@
 .bloco1 {
-    background-image: url('/conteudo/images/01_02_03/bg1.jpg');
+    background-image: url('../images/01_02_03/bg1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -8,7 +8,7 @@
 }
 
 .bloco2 {
-    background-image: url('/conteudo/images/01_02_03/bg2.jpg');
+    background-image: url('../images/01_02_03/bg2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -16,7 +16,7 @@
 }
 
 .bloco3 {
-    background-image: url('/conteudo/images/01_02_03/bg3.jpg');
+    background-image: url('../images/01_02_03/bg3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -302,11 +302,11 @@ table.senac {
     padding: 0;
     cursor: pointer;
     text-indent: -9999px;
-    background: #50D7E2 url("/conteudo/images/menu-alt.png") 50% 50%/25px 25px no-repeat;
+    background: #50D7E2 url("../images/menu-alt.png") 50% 50%/25px 25px no-repeat;
 }
 
 .fade-check label.menu-toggle {
-    background: #50D7E2 url("/conteudo/images/menu-alt-close.png") 50% 50%/25px 25px no-repeat;
+    background: #50D7E2 url("../images/menu-alt-close.png") 50% 50%/25px 25px no-repeat;
 }
 
 /* hide navigation icon for sublabels */
@@ -392,7 +392,7 @@ table.senac {
 }
 
 .btn-treinamento1 {
-    background: url('/conteudo/images/01_02_03/info1_bt1_1.png');
+    background: url('../images/01_02_03/info1_bt1_1.png');
     width: 220px;
     height: 397px;
     margin: 15px;
@@ -410,7 +410,7 @@ table.senac {
 
 
 .btn-treinamento2 {
-    background: url('/conteudo/images/01_02_03/info1_bt_2.png');
+    background: url('../images/01_02_03/info1_bt_2.png');
     width: 220px;
     height: 397px;
     margin: 15px;
@@ -418,7 +418,7 @@ table.senac {
 }
 
 .btn-treinamento3 {
-    background: url('/conteudo/images/01_02_03/info1_bt_3.png');
+    background: url('../images/01_02_03/info1_bt_3.png');
     width: 220px;
     height: 398px;
     margin: 15px;
@@ -426,7 +426,7 @@ table.senac {
 }
 
 .btn-treinamento4 {
-    background: url('/conteudo/images/01_02_03/info1_bt_4.png');
+    background: url('../images/01_02_03/info1_bt_4.png');
     width: 220px;
     height: 397px;
     margin: 15px;
@@ -434,7 +434,7 @@ table.senac {
 }
 
 .btn-treinamento5 {
-    background: url('/conteudo/images/01_02_03/info1_bt_5.png');
+    background: url('../images/01_02_03/info1_bt_5.png');
     width: 220px;
     height: 397px;
     margin: 15px;
@@ -442,7 +442,7 @@ table.senac {
 }
 
 .btn-treinamento6 {
-    background: url('/conteudo/images/01_02_03/info1_bt_6.png');
+    background: url('../images/01_02_03/info1_bt_6.png');
     width: 220px;
     height: 398px;
     margin: 15px;
