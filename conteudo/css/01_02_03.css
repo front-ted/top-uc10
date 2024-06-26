@@ -12,7 +12,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
 }
 
 .bloco3 {
@@ -20,30 +19,84 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
 }
 
-.imagem-div-1 {
+/* .bg1 {
     background-color: #0b3b4b;
-}
-
-.imagem-div-2 {
-    background-color: #0b3b4b;
-}
-
-.img-div2 {
-    width: 1082px;
-    height: 770px;
+    margin-top: -5%;
+    z-index: 1002;
     position: relative;
-    margin-top: -0.9%;
-    z-index: 1102;
-    margin-bottom: 4%;
+} */
+
+.bloco-x {
+    background-color: #0b3b4b;
+    position: relative;
+    background-size: cover;
+    padding-bottom: 5%;
 }
+
+.img-div {
+    max-width: 45%;
+    height: auto;
+    position: relative;
+    z-index: 1010;
+    margin-top: -6%;
+    margin-bottom: -3%;
+
+}
+
+.img-div-2 {
+    max-width: 45%;
+    height: auto;
+    position: relative;
+    z-index: 1010;
+    margin-top: -5%;
+    margin-bottom: -3%;
+
+}
+
+.container {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1003;
+    border-radius: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.bloco1 .container {
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.bloco2 .container {
+    padding-top: 6%;
+    margin-top: -5%;
+    position: relative;
+    z-index: 1003;
+    padding-bottom: 6%;
+}
+
+.bloco3 .container {
+    padding-top: 6%;
+    margin-top: -5%;
+    position: relative;
+    z-index: 1003;
+}
+
+
+
+
+
+
+
+
+
 
 .img-menor {
     display: block;
     max-width: 50%;
-} 
+}
 
 .regular {
     width: calc(100% - 5px);
@@ -88,23 +141,8 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.container {
-    background-color: #ffffff;
-    position: relative;
-    z-index: 1003;
-    border-radius: 15px;
-    padding-left: 60px;
-    padding-right: 60px;
-}
 
 
-.img-div {
-    width: 1080px;
-    height: 769px;
-    position: relative;
-    margin-top: -1%;
-    z-index: 1010;
-}
 
 .grupo-imprimir button.bto-imprimir {
     position: relative;
@@ -115,22 +153,7 @@
     z-index: 1004;
 }
 
-.bloco1 .container {
-    padding-top: 3%;
-    padding-bottom: 5%;
-}
 
-.bloco2 .container {
-    padding-top: 3%;
-    padding-bottom: 5%;
-    margin-top: -3.5%;
-}
-
-.bloco3 .container {
-    padding-top: 3%;
-    padding-bottom: 5%;
-    margin-top: -5%;
-}
 
 .fundo-tecnicos {
     padding: 30px 0 0 0;
