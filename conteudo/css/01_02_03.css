@@ -84,18 +84,11 @@
     z-index: 1003;
 }
 
-
-
-
-
-
-
-
-
-
 .img-menor {
     display: block;
     max-width: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .regular {
@@ -118,10 +111,6 @@
     text-decoration: none;
 }
 
-
-
-
-
 .modal {
     position: fixed;
     top: 100px;
@@ -141,9 +130,6 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
-
-
 .grupo-imprimir button.bto-imprimir {
     position: relative;
     padding-top: 11.4px;
@@ -152,8 +138,6 @@
     padding-right: 11.4px;
     z-index: 1004;
 }
-
-
 
 .fundo-tecnicos {
     padding: 30px 0 0 0;
@@ -799,17 +783,10 @@ a,
     .painel-passos {
         grid-template-columns: repeat(1, auto);
     }
-
     .img-div {
-        margin-top: -2%;
-        margin-bottom: -8%;
+        margin-bottom: -5%;
+        margin-top: -12%;
     }
-
-    .img-div2 {
-        margin-top: -1.9%;
-        margin-bottom: 3%;
-    }
-
     .grupo-imprimir button.bto-imprimir {
         background: #50D7E2;
         color: #fff;
@@ -866,8 +843,7 @@ a,
 
 @media (max-width: 420px) {
 
-    .imagem-div-1,
-    .imagem-div-2 {
+.bloco-x {
         display: none;
     }
 

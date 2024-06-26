@@ -108,6 +108,12 @@ iframe {
     margin-bottom: 20px;
 }
 
+.img-menor {
+    display: block;
+    max-width: 50%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
 
 h2 {
     color: #1e86ab;
