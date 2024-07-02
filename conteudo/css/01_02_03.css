@@ -67,6 +67,7 @@
 .bloco1 .container {
     padding-top: 3%;
     padding-bottom: 5%;
+    top: 100px;
 }
 
 .bloco2 .container {
@@ -751,6 +752,10 @@ a,
     .img-div {
         margin-bottom: -4.6%;
     }
+
+    .grupo-imprimir {
+        width: 1184px;
+    }
 }
 
 
@@ -763,6 +768,13 @@ a,
         margin-top: -1%;
     }
 }
+
+
+@media (max-width: 1370px) {
+.grupo-imprimir {
+    width: 1152px;
+}}
+
 
 
 @media (max-width: 820px) {
@@ -783,14 +795,19 @@ a,
     .painel-passos {
         grid-template-columns: repeat(1, auto);
     }
+
     .img-div {
         margin-bottom: -5%;
         margin-top: -12%;
     }
+
     .grupo-imprimir button.bto-imprimir {
         background: #50D7E2;
         color: #fff;
         margin-left: 108%;
+    }
+    .grupo-imprimir {
+        width: unset;
     }
 
     .bloco1 .container {
@@ -843,7 +860,7 @@ a,
 
 @media (max-width: 420px) {
 
-.bloco-x {
+    .bloco-x {
         display: none;
     }
 
@@ -868,5 +885,9 @@ a,
 
     .grupo-imprimir {
         margin-left: 90%;
+    }
+
+    .fundo-tecnicos {
+        padding: 16px 0 0 0;
     }
 }
