@@ -202,6 +202,24 @@ li {
     display: none;
 }
 
+.selo{
+    max-width: 60%;
+    margin-bottom: 3%;
+}
+
+.espera {
+    max-width: 100%;
+    width: 750px;
+    height: 451px;
+    top: 835px;
+    left: 345px;
+    border-radius: 8px;
+    border: 1px;
+    margin: auto;
+    background: linear-gradient(0deg, #DFDFDF, #DFDFDF),
+        linear-gradient(0deg, #E4E4E4, #E4E4E4);
+    border: 1px solid #DFDFDF
+}
 
 @media (max-width: 1500px) {
 
@@ -234,5 +252,9 @@ li {
 @media (max-width: 420px) {
     .fundo-tecnicos {
         margin-top: 80px;
+    }
+    .selo{
+        max-width: 35%;
+        margin-bottom: 3%;
     }
 }

@@ -785,8 +785,10 @@ a,
     filter: drop-shadow(#333 3px 3px 4px);
 }
 
-
-
+.selo{
+    max-width: 60%;
+    margin-bottom: 3%;
+}
 
 
 
@@ -1018,6 +1020,10 @@ a,
         top: -4px;
         position: absolute;
         filter: drop-shadow(#333 3px 3px 4px);
+    }
+    .selo{
+        max-width: 35%;
+        margin-bottom: 3%;
     }
 
 }
