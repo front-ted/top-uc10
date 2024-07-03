@@ -42,7 +42,6 @@
     z-index: 1010;
     margin-top: -3%;
     margin-bottom: -5%;
-
 }
 
 .img-div-2 {
@@ -750,6 +749,61 @@ a,
     max-width: 100%;
 }
 
+.img-zoom {
+    display: table;
+    position: relative;
+    margin: 0px auto;
+    cursor: pointer;
+  }
+
+.img-zoom::after {
+    content: url('../images/zoom_ie.png');
+    display: block;
+    width: 56px;
+    height: 26px;
+    right: 0px;
+    top: 4px;
+    position: absolute;
+    filter: drop-shadow(#333 3px 3px 4px);
+}
+
+.img-zoom1 {
+    display: table;
+    position: relative;
+    margin: 0px auto;
+    cursor: pointer;
+  }
+
+.img-zoom1::after {
+    content: url('../images/zoom_ie.png');
+    display: block;
+    width: 56px;
+    height: 26px;
+    right: 92px;
+    top: 4px;
+    position: absolute;
+    filter: drop-shadow(#333 3px 3px 4px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 1440px) {
@@ -835,6 +889,17 @@ a,
         height: 197px;
         margin-left: 9%;
     }
+    .img-zoom1::after {
+        content: url(../images/zoom_ie.png);
+        display: block;
+        width: 56px;
+        height: 26px;
+        right: -1px;
+        top: 4px;
+        position: absolute;
+        filter: drop-shadow(#333 3px 3px 4px);
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -876,6 +941,16 @@ a,
         padding-top: 100px;
         line-height: 1.7;
     }
+    .img-zoom::after {
+        content: url(../images/zoom_ie.png);
+        display: block;
+        width: 56px;
+        height: 26px;
+        right: -32px;
+        top: -13px;
+        position: absolute;
+        filter: drop-shadow(#333 3px 3px 4px);
+    }
 }
 
 @media (max-width: 420px) {
@@ -891,10 +966,11 @@ a,
 
     .bloco3 .container {
         padding-top: 6%;
-        margin-top: 0;}
+        margin-top: 0;
+    }
 
-
-    .img-div, .img-div-2 {
+    .img-div,
+    .img-div-2 {
         display: none;
     }
 
@@ -933,6 +1009,17 @@ a,
         padding-left: 30px;
         padding-right: 30px;
     }
+    .img-zoom1::after {
+        content: url(../images/zoom_ie.png);
+        display: block;
+        width: 56px;
+        height: 26px;
+        right: -35px;
+        top: -4px;
+        position: absolute;
+        filter: drop-shadow(#333 3px 3px 4px);
+    }
+
 }
 
 

@@ -16,6 +16,13 @@ li:first-line {
   display: block !important;
 }
 
+.img-menor {
+  display: block;
+  max-width: 80%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
 ol {
   list-style-type: none;
 }

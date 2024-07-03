@@ -30,11 +30,10 @@
     background: url('../images/05_06/bg03.png');
     background-color: #f7ead7;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     color: #000;
-    padding-top: 4%;
-    padding-bottom: 2%;
+    padding-top: 8%;
+    padding-bottom: 10%;
 }
 
 
@@ -253,6 +252,10 @@ li {
     background-color: #ef9a01;
 }
 
+.letra-menor{
+    font-size: 14px;
+}
+
 @media (max-width: 1440px) {
     .bloco3 {
         background: url('../images/05_06/bg02.png');
@@ -322,6 +325,14 @@ li {
         margin-top: -15%;
         z-index: 10;
     }
-
+    .bloco5 {
+        background: url(../images/05_06/bg03.png);
+        background-color: #f7ead7;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #000;
+        padding-top: 40%;
+        padding-bottom: 10%;
+    }
 
 }
