@@ -1,5 +1,5 @@
 html,
-body {
+body, .fundo-tecnicos {
     background: url('../images/04_07/bg_modulo1.jpg');
     background-repeat: repeat;
 }
