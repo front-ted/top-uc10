@@ -26,6 +26,7 @@
   <!-- Estilos do visualizador -->
   <link rel="stylesheet" href="objetos/olho3d/viewer_3d/css/viewer.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="oda/quiz-hq/assets/css/style.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -377,15 +378,24 @@
         <div class="no-print">
           <div class="row">
             <div class="col-sm-9 col-xs-12">
-              <p>Aprofunde seus conhecimentos no jogo abaixo.</p>
+              <p>Aprofunde seus conhecimentos com o quiz abaixo.</p>
             </div>
             <div class="col-sm-3 col-xs-12">
               <img src="images/selo-presencialidade.png" class="center-block img-responsive selo">
             </div>
           </div>
-          <div class="espera">
-            JOGO
+          <!-- Inicio do quiz -->
+          <div class="body-hq"></div>
+          <div>
+            <audio id="somBotao" src="oda/quiz-hq/assets/audio/clique.mp3" preload="auto"></audio>
+            <audio id="audio-acerto">
+              <source src="oda/quiz-hq/assets/audio/acerto.mp3" type="audio/mpeg">
+            </audio>
+            <audio id="audio-errado">
+              <source src="oda/quiz-hq/assets/audio/erro.mp3" type="audio/mpeg">
+            </audio>
           </div>
+          <!-- Fim do quiz -->
         </div>
         <h4>Conclusão</h4>
         <p>
@@ -460,8 +470,10 @@
   <script src="js/template.config.js"></script>
   <script src="js/images.loader.js"></script>
   <script src="js/01.js"></script>
-  <script src="js/aos.js"></script>
 
+  <script src="oda/quiz-hq/assets/js/script.js"></script>
+  <script src="oda/quiz-hq/assets/js/configHQ.js"></script>
+  <script src="js/aos.js"></script>
   <noscript>
     <style media="screen">
       .over-loader {
