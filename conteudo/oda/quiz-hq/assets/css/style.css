@@ -59,9 +59,11 @@ a.seta:active {
   color: white;
   text-decoration: none;
 }
+
 .oda-alternativa {
   padding-bottom: 40px;
 }
+
 .oda-alternativas {
   display: flex;
   justify-content: center;
@@ -69,12 +71,14 @@ a.seta:active {
   gap: 20px;
   margin-bottom: 40px;
 }
+
 .odas-alternativas button {
   flex: 1;
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
 }
+
 .section-hq h3{
   color: white !important;
   margin-bottom: 40px;
@@ -92,6 +96,15 @@ a.seta:active {
   font-weight: bold;
 }
 
+.situacao {
+	background-color: #f9cb6e;
+	padding: 3%;
+	text-align: center;
+  font-size: 16px;
+  color: var(--background-fundo);
+  font-weight: bold;
+}
+
 .question-div {
   background-color: var(--background-div-perguntapergunta);
   text-align: center;
@@ -105,7 +118,6 @@ a.seta:active {
 
 .bto-resposta {
   color: var(--cor-texto-resposta);
-  /* margin: 1%; */
   background-color: var(--cor-bto-resposta);
   border: 2px solid white;
   padding: 2%;

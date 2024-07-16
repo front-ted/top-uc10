@@ -26,6 +26,7 @@ const caminhoImagemPositiva = "oda/quiz-hq/assets/img/thumb-up.png";
 const caminhoImagemNegativa = "oda/quiz-hq/assets/img/thumb-down.png";
 
 const hqConfig = [{
+    situacao:"Você é um técnico em óptica especialista em lentes de contato e trabalha no setor de adaptação. Hoje, no seu turno da manhã, você receberá três usuários para avaliação das lentes. Agenda do dia 01/04 – 9h: Ana, 60 anos. Utiliza lentes gelatinosas descartáveis.",
         caminhoImagem: "",
         pergunta: "Qual é a melhor orientação a ser dada à usuária de como remover as lentes? ",
         opcoes: ["Remova as lentes com uma ventosa extratora.","Utilize sempre o dedo indicador e o polegar para a remoção e um espelho. Além disso, mantenha as unhas curtas e as mãos limpas."],
@@ -34,6 +35,7 @@ const hqConfig = [{
         feedbackNegativo: "Tente novamente! A ventosa é indicada para lente RGP, não para gelatinosas. Se você sugerir a ventosa, a usuária não conseguirá remover a lente e precisará de um novo retorno à óptica. "
     },
     {
+        situacao:"01/04 – 10h: Rafael, 32 anos Utiliza lentes RGP. Primeira pergunta – Está se sentindo bem com as lentes? Rafael responde: Está tudo ótimo com o manuseio e uso das lentes, mas estou com dificuldade de enxergar com o olho esquerdo. Ao conferir a acuidade visual de Rafael, você constatou que a lente está 20/30.",
         caminhoImagem: "",
         pergunta: "Conferindo no lensômetro o grau de Rafael, você percebe que a lente do olho direito está de acordo com o indicado, no entanto, a do olho esquerdo está com 0,50 a menos do que o grau que deveria estar. Considerando isso, qual é a sua atitude? ",
         opcoes: ["Você envia a lente ao fabricante para trocá-la pela lente com grau correto. ", "Sugere que o usuário aguarde mais 20 dias para ver se consegue se adaptar."],
@@ -42,6 +44,7 @@ const hqConfig = [{
         feedbackNegativo: "Você não deve orientar o usuário para que aguarde adaptação considerando que o grau não está correto. Sendo assim, é importante enviar a lente ao fabricante para a realização de alteração técnica. "
     },
     {
+        situacao:"01/04 – 11h Juliana, 16 anos. Utiliza lente gelatinosa com troca anual. Primeira pergunta – Está se sentindo bem com as lentes? Juliana responde: Estou com muito desconforto nos dois olhos, com a sensação de que tenho alguma coisa os machucando. ",
         caminhoImagem: "",
         pergunta: "Ao realizar a avaliação de integridade física das lentes, você identifica que há pontos de cálcio na superfície das lentes de contato. Considerando isso, qual seria sua atitude?  ",
         opcoes: ["Envia as lentes ao fabricante para verificação.","Inutiliza as lentes e realiza uma reciclagem com o usuário, esclarecendo as indicações de uso e fazendo novas lentes."],

@@ -29,6 +29,12 @@ function criarBody() {
     }
 
     if (pagina.pergunta) {
+
+      const $divSituacao = $('<div>').addClass('situacao');
+      const $pSituacao = $('<p>').addClass('p-situacao').text(pagina.situacao); // Utilizando o texto de situação da configuração
+      $divSituacao.append($pSituacao);
+      $secao.append($divSituacao);
+
       const $divPergunta = $('<div>').addClass('question-div mt-2');
       const $textoPergunta = $('<h3>').addClass("mb-3 mt-3").text(pagina.pergunta);
       $divPergunta.append($textoPergunta);
