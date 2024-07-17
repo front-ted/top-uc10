@@ -184,6 +184,16 @@ li {
     margin-bottom: 3%;
 }
 
+.btn-quiz{
+    background-color: #50D7E2;
+    max-width: 200px;
+    border-radius: 20px;
+}
+
+.text-white{
+    color: #ffff;
+}
+
 @media (max-width: 820px) {
     .mobile-link {
         display: block;
